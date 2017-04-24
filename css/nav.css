@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#global-nav ul {
+	margin: 0;
+	position: absolute;
+	z-index: 10;
+}
+
+#global-nav ul li {
+	float: left;
+}
+
+#global-nav ul li li {
+	float: none;
+}
+#global-nav ul > li{
+    vertical-align: middle;
+    text-height: 100px !important;
+    /*padding-top: 10px;*/
+}
+#global-nav ul#menu-global > li > a {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px;
+}
+#global-nav ul#menu-global > li.current-menu-item > a,
+#global-nav ul#menu-global > li > a:hover
+{
+    color: #FFF;
+}
+
+#global-nav a {
+	display: block;
+	width: 190px;
+	height: 52px;
+	/*text-indent: -9999px;*/ 
+	outline: 0;
+}
+#global-nav ul#menu-global > li > a {
+	height: 42px;
+}
+
+
+#global-nav li ul {
+	display: none;
+}
+#global-nav #menu-item-home {
+	background-image: url(../images/nav/bg_home.png);
+	width: 194px;
+}
+#global-nav #menu-item-about {
+	background-image: url(../images/nav/bg-menu.png);
+}
+#global-nav #menu-item-mall {
+	background-image: url(../images/nav/bg-menu.png);
+}
+#global-nav #menu-item-column {
+	background-image: url(../images/nav/bg-menu.png);
+}
+#global-nav #menu-item-inquiry {
+	background-image: url(../images/nav/bg_inquiry.png);
+	width: 194px;
+}
+
+#global-nav .current-menu-item, 
+#global-nav .current-post-ancestor, 
+#global-nav .current-page-ancestor, 
+#global-nav .menu-item:hover {
+	background-position: 0 -52px;
+        color: #FFF;
+}
+
+#global-nav ul ul {
+    border-bottom: 3px solid #fff;
+    border-radius: 0 0 3px 3px;
+    display: none;
+    position: absolute;
+    top: 41px;
+    z-index: 100;
+	width: auto;
+}
+
+#global-nav ul .menu-item ul a {
+	width: 170px;
+	color: #333;
+    	background: none;
+	text-indent: 0;
+	height: 22px;
+	padding: 10px 5px;
+	border-top: dotted 1px #ddd;
+}
+
+#global-nav ul .menu-item ul a:hover {
+	color: #f00;
+}
+
+#global-nav ul .menu-item ul li {
+	background: #fff;
+	float: none;
+	padding: 0 5px;
+}
+
+#global-nav ul .menu-item ul li:first-child a {
+	border-top: none;
+}
+
+#global-nav ul li:hover > ul, div.menu ul li:hover > ul {
+    display: block;
+}
+
+#menu-item-home {
+    width : 194px;
+}
