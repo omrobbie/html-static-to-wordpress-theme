@@ -46,20 +46,20 @@
 #global-nav li ul {
 	display: none;
 }
-#global-nav #menu-item-home {
+#global-nav #menu-item-58 {
 	background-image: url(../images/nav/bg_home.png);
 	width: 194px;
 }
-#global-nav #menu-item-about {
+#global-nav #menu-item-59 {
 	background-image: url(../images/nav/bg-menu.png);
 }
-#global-nav #menu-item-mall {
+#global-nav #menu-item-63 {
 	background-image: url(../images/nav/bg-menu.png);
 }
-#global-nav #menu-item-column {
+#global-nav #menu-item-69 {
 	background-image: url(../images/nav/bg-menu.png);
 }
-#global-nav #menu-item-inquiry {
+#global-nav #menu-item-68 {
 	background-image: url(../images/nav/bg_inquiry.png);
 	width: 194px;
 }
