@@ -43,22 +43,52 @@
     </section><!-- #malls-pickup end -->
     <section id="latest-columns">
       <h1 id="latest-columns-title">Recent Column</h1>
-      <span class="link-text archive-link"><a href="#">Column List</a></span>
+      <span class="link-text archive-link"><a href="<?php echo get_term_link('column', 'category'); ?>">Column List</a></span>
       <div class="column-group head">
-        <article class="column-article" >
-          <h1 class="update-title"><a href="#">column-title_1</a></h1>
-          <time class="entry-date" datetime="2012-01-01">entry-date</time>
-          <a href="#"><img width="90" height="90" src="<?php bloginfo('template_url'); ?>/images/top/column_image.png" alt="column_image" /></a>
-          <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
-          <span class="link-text"><a href="#">Read More...</a></span>
+        <?php
+          $query_recent = new WP_Query('post_per_page=4&category_name=column');
+          if($query_recent->have_posts()):
+            $count=1;
+            while($query_recent->have_posts()):
+              $query_recent->the_post();
+              if($count%2>0 && $count!=1):
+        ?>
+      </div><!-- .column-group end -->
+      <div class="column-group">
+        <?php
+              endif;
+        ?>
+        <article class="column-article">
+          <h1 class="update-title">
+            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+              <?php the_title(); ?>
+            </a>
+          </h1>
+          <time class="entry-date" datetime="<?php the_time('Y-m-d'); ?>">
+            <?php the_time(get_option('date_format')); ?>
+          </time>
+          <a href="<?php the_permalink(); ?>">
+            <?php
+              the_post_thumbnail(
+                'post-thumbnail',
+                array(
+                  'alt'   => the_title_attribute('echo=0'),
+                  'title' => the_title_attribute('echo=0')
+                )
+              );
+            ?>
+          </a>
+          <?php the_excerpt(); ?>
+          <span class="link-text">
+            <a href="<?php the_permalink(); ?>">Read More...</a>
+          </span>
         </article>
-        <article class="column-article" >
-          <h1 class="update-title"><a href="#">column-title_2</a></h1>
-          <time class="entry-date" datetime="2012-01-01">entry-date</time>
-          <a href="#"><img width="90" height="90" src="<?php bloginfo('template_url'); ?>/images/top/column_image.png" alt="column_image" /></a>
-          <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
-          <span class="link-text"><a href="#">Read More...</a></span>
-        </article>
+        <?php
+              $count++;
+            endwhile;
+          endif;
+          wp_reset_postdata();
+        ?>
       </div><!-- .column-group end -->
     </section><!-- #latest-columns end -->
   </section><!-- #contents end -->
