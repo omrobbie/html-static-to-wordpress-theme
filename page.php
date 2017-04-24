@@ -4,7 +4,18 @@
           if(have_posts()):
             while(have_posts()):
               the_post();
-              the_content();
+        ?>
+              <article>
+                <header class="page-header">
+                  <h1 class="page-title">
+                    <?php the_title(); ?>
+                  </h1>
+                </header>
+                <section class="entry-content">
+                  <?php the_content(); ?>
+                </section>
+              </article>
+        <?php
             endwhile;
           endif;
         ?>
