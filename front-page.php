@@ -2,22 +2,43 @@
   <section id="contents">
     <section id="malls-pickup">
       <div class="malls-group">
+        <?php
+          $query_content = new WP_Query('post_per_page=-1&post_type=page&orderby=menu_order&order=asc&post_parent=43');
+          if($query_content->have_posts()):
+            $count=1;
+            while($query_content->have_posts()):
+              $query_content->the_post();
+              if($count%2>0 && $count!=1):
+        ?>
+      </div><!-- .malls-group end -->
+      <div class="malls-group">
+        <?php
+              endif;
+        ?>
         <article>
-          <h1><a href="#">mall-title_1</a></h1>
-          <a href="#"><img width="302" height="123" src="<?php bloginfo('template_url'); ?>/images/top/mall_image.png"  alt="mall-title_1" /></a>
-          <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
-          <div class="continue-button">
-            <a href="#">See More...</a>
-          </div>
+          <h1>
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            <a href="<?php the_permalink(); ?>">
+              <?php
+                the_post_thumbnail(
+                  'pickup_thumbnail',
+                  array(
+                    'alt'   => the_title_attribute('echo=0'),
+                    'title' => the_title_attribute('echo=0')
+                  )
+                );
+              ?>
+            </a>
+            <?php the_excerpt(); ?>
+            <div class="continue-button"><a href="<?php the_permalink(); ?>">See More</a></div>
+          </h1>
         </article>
-        <article>
-          <h1><a href="#">mall-title_2</a></h1>
-          <a href="#"><img width="302" height="123" src="<?php bloginfo('template_url'); ?>/images/top/mall_image.png" alt="mall-title_2" /></a>
-          <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
-          <div class="continue-button">
-            <a href="#">See More...</a>
-          </div>
-        </article>
+        <?php
+              $count++;
+            endwhile;
+          endif;
+          wp_reset_postdata();
+        ?>
       </div><!-- .malls-group end -->
     </section><!-- #malls-pickup end -->
     <section id="latest-columns">
