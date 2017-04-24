@@ -20,7 +20,7 @@
   <div id="container">
     <header id="header">
       <h1 id="site-id">
-        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/header/site_id.png" alt="Site Id" /></a>
+        <a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/header/site_id.png" alt="<?php bloginfo('name'); ?>" /></a>
       </h1><!-- #site-id end -->
       <div id="utility-group">
         <nav id="utility-nav">
