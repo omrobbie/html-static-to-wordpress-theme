@@ -22,6 +22,7 @@ Belajar merubah html statis menjadi tema wordpress.
 
 ### Konfigurasi Wordpress
 * Salin semua plugins ke folder plugins
+* Pada menu Settings -> Permalinks, ubah menjadi Numeric
 * Pada menu Settings -> Reading -> Front page display, lakukan perubahan pada
 	* Ubah radio button menjadi "A static page"
 	* Front page = HOME
