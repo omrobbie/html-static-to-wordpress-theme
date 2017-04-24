@@ -9,3 +9,11 @@ $defaults = array(
 	'header-text'			=> false
 );
 add_theme_support('custom-header', $defaults);
+
+// mendaftarkan menu navigasi
+register_nav_menus(
+	array(
+		'place_global'	=> 'Global Menu',
+		'place_utility'	=> 'Utility Menu'
+	)
+);

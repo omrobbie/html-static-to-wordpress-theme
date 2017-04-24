@@ -27,3 +27,4 @@ Belajar merubah html statis menjadi tema wordpress.
 * Pada menu Settings -> Reading -> Front page display, lakukan perubahan pada
 	* Ubah radio button menjadi "A static page"
 	* Front page = HOME
+* Pada menu Apperance -> Menus, pilih page yang akan dijadikan menu
