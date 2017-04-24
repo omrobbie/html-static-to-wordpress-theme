@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>title</title>
-<link rel="apple-touch-icon" href="./images/touch-icon.png" />
-<link rel="shortcut icon" href="./images/favicon.ico" />
+<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/touch-icon.png" />
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 <!--[if lt IE 9]>
   <meta http-equiv="Imagetoolbar" content="no" />
@@ -19,7 +19,7 @@
   <div id="container">
     <header id="header">
       <h1 id="site-id">
-        <a href="#"><img src="./images/header/site_id.png" alt="Site Id" /></a>
+        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/header/site_id.png" alt="Site Id" /></a>
       </h1><!-- #site-id end -->
       <div id="utility-group">
         <nav id="utility-nav">
@@ -51,14 +51,14 @@
             <li class="menu-item"><a href="#">DURIAN MALL</a></li>
             <li class="menu-item"><a href="#">SHIODOME MALL</a></li>
             <li class="menu-item"><a href="#">THAMRIN MALL</a></li>
-          </ul>
-        </li>
+          </ul
+ >       </li>
         <li id="menu-item-column" class="menu-item"><a href="#">COLUMN</a></li>
         <li id="menu-item-inquiry" class="menu-item"><a href="#">CONTACT US</a></li>
       </ul><!-- #menu-global end -->
     </nav><!-- #global-nav end -->
     <section id="branding">
-      <img src="./images/top/main_image.png" width="950" height="295" alt="" />
+      <img src="<?php bloginfo('template_url'); ?>/images/top/main_image.png" width="950" height="295" alt="" />
     </section><!-- #branding end -->
     <section id="contents-body">
       <section id="contents">
@@ -66,7 +66,7 @@
           <div class="malls-group">
             <article>
               <h1><a href="#">mall-title_1</a></h1>
-              <a href="#"><img width="302" height="123" src="./images/top/mall_image.png"  alt="mall-title_1" /></a>
+              <a href="#"><img width="302" height="123" src="<?php bloginfo('template_url'); ?>/images/top/mall_image.png"  alt="mall-title_1" /></a>
               <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
               <div class="continue-button">
                 <a href="#">See More...</a>
@@ -74,7 +74,7 @@
             </article>
             <article>
               <h1><a href="#">mall-title_2</a></h1>
-              <a href="#"><img width="302" height="123" src="./images/top/mall_image.png" alt="mall-title_2" /></a>
+              <a href="#"><img width="302" height="123" src="<?php bloginfo('template_url'); ?>/images/top/mall_image.png" alt="mall-title_2" /></a>
               <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
               <div class="continue-button">
                 <a href="#">See More...</a>
@@ -89,14 +89,14 @@
             <article class="column-article" >
               <h1 class="update-title"><a href="#">column-title_1</a></h1>
               <time class="entry-date" datetime="2012-01-01">entry-date</time>
-              <a href="#"><img width="90" height="90" src="./images/top/column_image.png" alt="column_image" /></a>
+              <a href="#"><img width="90" height="90" src="<?php bloginfo('template_url'); ?>/images/top/column_image.png" alt="column_image" /></a>
               <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
               <span class="link-text"><a href="#">Read More...</a></span>
             </article>
             <article class="column-article" >
               <h1 class="update-title"><a href="#">column-title_2</a></h1>
               <time class="entry-date" datetime="2012-01-01">entry-date</time>
-              <a href="#"><img width="90" height="90" src="./images/top/column_image.png" alt="column_image" /></a>
+              <a href="#"><img width="90" height="90" src="<?php bloginfo('template_url'); ?>/images/top/column_image.png" alt="column_image" /></a>
               <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
               <span class="link-text"><a href="#">Read More...</a></span>
             </article>
@@ -105,7 +105,7 @@
       </section><!-- #contents end -->
       <section id="sidebar">
         <aside class="rss_link">
-          <a href="#"><img src="./images/btn_rss_feed.png" width="250" height="28" alt="RSS" /></a>
+          <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/btn_rss_feed.png" width="250" height="28" alt="RSS" /></a>
         </aside>
         <div id="primary" class="widget-area">
           <aside id="event-info" class="news-list">
@@ -115,13 +115,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">event-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png" alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">event-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png" alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
               </ul>
@@ -135,13 +135,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">malls-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png" alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">malls-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png" alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
               </ul>
@@ -155,13 +155,13 @@
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">information-info_title_1</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png" alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png" alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
                 <li>
                   <time class="entry-date" datetime="2012-01-01">entry-date</time>
                   <h2><a href="#">information-info_title_2</a></h2>
-                  <a href="#"><img width="61" height="61" src="./images/top/post_image.png"  alt="post_image" /></a>
+                  <a href="#"><img width="61" height="61" src="<?php bloginfo('template_url'); ?>/images/top/post_image.png"  alt="post_image" /></a>
                   <p>isi artikel isi artikel isi artikel isi artikel isi artikel isi artikel...</p>
                 </li>
               </ul>
