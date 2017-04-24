@@ -6,5 +6,6 @@
     </footer><!-- #footer end -->
   </div><!-- #footer-container end -->
 </div><!-- #wrap end -->
+<?php wp_footer(); ?>
 </body>
 </html>
