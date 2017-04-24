@@ -1,0 +1,1316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_site-manager\n"
+"POT-Creation-Date: 2014-09-09 13:43+0700\n"
+"PO-Revision-Date: 2014-09-09 13:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: psi-indonesia\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;_x;esc_attr__\n"
+"X-Poedit-SearchPath-0: wp-sitemanager\n"
+"X-Poedit-SearchPath-1: wp-sitemanager/modules\n"
+
+#: wp-sitemanager/wp-sitemanager.php:89 wp-sitemanager/wp-sitemanager.php:176
+msgid "Module"
+msgstr "モジュール"
+
+#: wp-sitemanager/wp-sitemanager.php:196
+msgid "Enable"
+msgstr "有効化"
+
+#: wp-sitemanager/wp-sitemanager.php:205
+msgid "Disable"
+msgstr "停止"
+
+#: wp-sitemanager/wp-sitemanager.php:219
+msgid "Module is not installed."
+msgstr "モジュールがインストールされていません。"
+
+#: wp-sitemanager/wp-sitemanager.php:462
+msgid "General Settings"
+msgstr "一般設定"
+
+#: wp-sitemanager/modules/bread-crumb.php:24
+msgid "Breadcrumb Navigation"
+msgstr "パンくずナビ"
+
+#: wp-sitemanager/modules/bread-crumb.php:25
+msgid ""
+"In order to view the site map , select the section you would like to view."
+msgstr "サイトマップを表示するには、サイトマップを表示したい箇所に"
+
+#: wp-sitemanager/modules/bread-crumb.php:33
+msgid "HOME"
+msgstr "トップページ"
+
+#: wp-sitemanager/modules/bread-crumb.php:34
+#, php-format
+msgid "Search result of \"%s\""
+msgstr "『%s』の検索結果"
+
+#: wp-sitemanager/modules/bread-crumb.php:35
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: wp-sitemanager/modules/bread-crumb.php:36
+#: wp-sitemanager/modules/bread-crumb.php:37
+#: wp-sitemanager/modules/bread-crumb.php:38
+#: wp-sitemanager/modules/bread-crumb.php:39
+#: wp-sitemanager/modules/bread-crumb.php:40
+#: wp-sitemanager/modules/bread-crumb.php:44
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: wp-sitemanager/modules/bread-crumb.php:41
+#, php-format
+msgid "%s Year"
+msgstr "%s年"
+
+#: wp-sitemanager/modules/bread-crumb.php:42
+#, php-format
+msgid "%s Month"
+msgstr "%s月"
+
+#: wp-sitemanager/modules/bread-crumb.php:43
+#, php-format
+msgid "%s Date"
+msgstr "%s日"
+
+#: wp-sitemanager/modules/bread-crumb.php:45
+msgid " &gt; "
+msgstr " &gt; "
+
+#: wp-sitemanager/modules/meta-manager.php:62
+msgid "Meta Information Setting"
+msgstr "メタ情報設定"
+
+#: wp-sitemanager/modules/meta-manager.php:63
+msgid "Display meta keywords, meta description and SNS tags in the head tag."
+msgstr ""
+"サイトのheadタグ内にメタキーワード、メタディスクリプションの表示を行います。"
+
+#: wp-sitemanager/modules/meta-manager.php:83
+#: wp-sitemanager/modules/meta-manager.php:96
+#: wp-sitemanager/modules/meta-manager.php:136
+#: wp-sitemanager/modules/theme_switcher.php:856
+msgid "Meta Keywords"
+msgstr "キーワード"
+
+#: wp-sitemanager/modules/meta-manager.php:87
+#: wp-sitemanager/modules/meta-manager.php:100
+#: wp-sitemanager/modules/meta-manager.php:138
+msgid "Meta Description"
+msgstr "メタディスクリプション"
+
+#: wp-sitemanager/modules/meta-manager.php:126
+msgid "Meta Information"
+msgstr "メタ情報"
+
+#: wp-sitemanager/modules/meta-manager.php:346
+msgid "(no title)"
+msgstr "(no title)"
+
+#: wp-sitemanager/modules/meta-manager.php:556
+msgid "Keyword &amp; description"
+msgstr "キーワード &amp; ディスクリプション"
+
+#: wp-sitemanager/modules/meta-manager.php:557
+msgid "Basic Setting"
+msgstr "基本ディスクリプション"
+
+#: wp-sitemanager/modules/meta-manager.php:560
+msgid "Common Keyword"
+msgstr "共通キーワード"
+
+#: wp-sitemanager/modules/meta-manager.php:568
+msgid "Basic Description"
+msgstr "基本ディスクリプション"
+
+#: wp-sitemanager/modules/meta-manager.php:576
+msgid "Post setting"
+msgstr "ソーシャル設定"
+
+#: wp-sitemanager/modules/meta-manager.php:580
+msgid "Include taxonomies for keywords of post"
+msgstr "記事のキーワードに含める分類"
+
+#: wp-sitemanager/modules/meta-manager.php:595
+msgid "Description of post"
+msgstr "記事のメタディスクリプション"
+
+#: wp-sitemanager/modules/meta-manager.php:599
+msgid "Using excerpt for post description"
+msgstr "抜粋を記事のディスクリプションとして利用する"
+
+#: wp-sitemanager/modules/meta-manager.php:604
+msgid "Taxonomy Setting"
+msgstr "タクソノミー設定 "
+
+#: wp-sitemanager/modules/meta-manager.php:607
+msgid "Meta Keywords Taxonomy"
+msgstr "タクソノミーのメタキーワード"
+
+#: wp-sitemanager/modules/meta-manager.php:611
+msgid "Include taxonomies name for keywords of taxonomy"
+msgstr "記事のキーワードに含める分類"
+
+#: wp-sitemanager/modules/meta-manager.php:616
+msgid "SNS Setting"
+msgstr "ソーシャル設定 "
+
+#: wp-sitemanager/modules/meta-manager.php:619
+msgid "Basic Image"
+msgstr "基本イメージ"
+
+#: wp-sitemanager/modules/meta-manager.php:621
+msgid "Select a picture"
+msgstr "画像を選択"
+
+#: wp-sitemanager/modules/meta-manager.php:623
+msgid "Remove Image"
+msgstr "画像を削除"
+
+#: wp-sitemanager/modules/meta-manager.php:631
+msgid "Output of OGP"
+msgstr "OGPの出力 "
+
+#: wp-sitemanager/modules/meta-manager.php:635
+#: wp-sitemanager/modules/meta-manager.php:644
+msgid "Output"
+msgstr "出力する"
+
+#: wp-sitemanager/modules/meta-manager.php:640
+msgid "Output of Twitter Cards"
+msgstr "Twitter Cardsの出力 "
+
+#: wp-sitemanager/modules/meta-manager.php:649
+msgid "Twitter Account"
+msgstr "Twitter アカウント"
+
+#: wp-sitemanager/modules/page-navi.php:26
+msgid "&lt;"
+msgstr "&lt;"
+
+#: wp-sitemanager/modules/page-navi.php:27
+msgid "&gt;"
+msgstr "&gt;"
+
+#: wp-sitemanager/modules/page-navi.php:29
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-sitemanager/modules/page-navi.php:30
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-sitemanager/modules/page-navi.php:221
+msgid "Page Navigation"
+msgstr "ページナビ（ページャー） "
+
+#: wp-sitemanager/modules/page-navi.php:222
+msgid ""
+"In the archive page, such as date, author or category, Page Navigation will "
+"be display."
+msgstr ""
+"カテゴリーや年月・作成者などのアーカイブページにおいて、ページナビ（ペー"
+"ジャー）を表示します。"
+
+#: wp-sitemanager/modules/site-cache.php:56
+#: wp-sitemanager/modules/site-cache.php:113
+msgid "Cache"
+msgstr "キャッシュ"
+
+#: wp-sitemanager/modules/site-cache.php:57
+msgid "Reduce server load by cache to improves displaying speed"
+msgstr "キャッシュにより表示速度を改善し、サーバー負荷を低減します。"
+
+#: wp-sitemanager/modules/site-cache.php:123
+msgid "Cache Settings"
+msgstr "キャッシュ設定"
+
+#: wp-sitemanager/modules/site-cache.php:124
+msgid "Cache Expiration"
+msgstr "キャッシュの有効期限"
+
+#: wp-sitemanager/modules/site-cache.php:127
+msgid ""
+"Cache is not enabled. Please write <code>define( 'WP_CACHE', true );</code> "
+"above  <code>/* That's all, stop editing! Happy blogging. */</code> "
+"statement in wp-config.php, for enabling cache."
+msgstr ""
+"キャッシュは有効になっていません。有効にするためには、wp-config.phpの「編集が"
+"必要なのはここまでです !…」という記述より上に<code>define( 'WP_CACHE', "
+"true );</code>と記述する必要があります。"
+
+#: wp-sitemanager/modules/site-cache.php:139
+#: wp-sitemanager/modules/site-structure.php:121
+msgid "Front page"
+msgstr "トップページ"
+
+#: wp-sitemanager/modules/site-cache.php:141
+#: wp-sitemanager/modules/site-cache.php:147
+#: wp-sitemanager/modules/site-cache.php:153
+msgid "Minutes"
+msgstr "分"
+
+#: wp-sitemanager/modules/site-cache.php:145
+msgid "Archive (List)"
+msgstr "アーカイブ（一覧）"
+
+#: wp-sitemanager/modules/site-cache.php:151
+msgid "Detail Article"
+msgstr "記事のみ"
+
+#: wp-sitemanager/modules/site-cache.php:157
+msgid "Cache exclusion"
+msgstr "キャッシュ除外"
+
+#: wp-sitemanager/modules/site-cache.php:160
+msgid ""
+"You can specify URL patterns (can use regex) for excluding cache. Put a line "
+"break for specify more than one patters"
+msgstr ""
+"キャッシュを除外したい、URLパターン（正規表現利用可）を指定できます。複数のパ"
+"ターンを指定する場合は、改行を入れてください。"
+
+#: wp-sitemanager/modules/site-cache.php:164
+msgid "Query string to cache"
+msgstr "キャッシュするクエリ文字列"
+
+#: wp-sitemanager/modules/site-cache.php:167
+msgid "Please enter a key of valid query string as cache data"
+msgstr "キャッシュデータとして有効なクエリ文字列のキーを入力してください。 "
+
+#: wp-sitemanager/modules/site-cache.php:171
+msgid "Range of cache will be delete when article is published"
+msgstr "記事公開時に削除するキャッシュの範囲"
+
+#: wp-sitemanager/modules/site-cache.php:173
+msgid "Do not delete"
+msgstr "削除しない"
+
+#: wp-sitemanager/modules/site-cache.php:174
+msgid "Only Article"
+msgstr "記事のみ"
+
+#: wp-sitemanager/modules/site-cache.php:175
+msgid "Post &amp; Front page"
+msgstr "トップページ "
+
+#: wp-sitemanager/modules/site-cache.php:176
+msgid "All"
+msgstr "すべて"
+
+#: wp-sitemanager/modules/site-cache.php:181
+msgid "Clear Cache"
+msgstr "キャッシュのクリア"
+
+#: wp-sitemanager/modules/site-cache.php:182
+msgid "Clear all the cache"
+msgstr "キャッシュを全てクリア"
+
+#: wp-sitemanager/modules/site-cache.php:186
+msgid "Regenerate advanced-cache.php"
+msgstr "advanced-cache.phpの再生成"
+
+#: wp-sitemanager/modules/site-cache.php:188
+msgid "Generate advanced-cache.php"
+msgstr "advanced-cache.phpを生成する"
+
+#: wp-sitemanager/modules/site-cache.php:190
+#, php-format
+msgid ""
+"No permission to re-write file %s or advanced-cache.php. Please set re-write "
+"permission to enable re-generate advanced-cache.php"
+msgstr ""
+"advanced-cache.php、または %s に書き込み権限がありません。advanced-cache.php"
+"の再生成を行うには、書き込み権限を設定してください。"
+
+#: wp-sitemanager/modules/site-cache.php:244
+msgid "Although you not exist, "
+msgstr "は存在していますが、"
+
+#: wp-sitemanager/modules/site-cache.php:244
+msgid "I am different from that of."
+msgstr "のものとは異なっています。"
+
+#: wp-sitemanager/modules/site-cache.php:247
+msgid "You do not have read access to."
+msgstr "に読み込み権限がありません。"
+
+#: wp-sitemanager/modules/site-cache.php:250
+msgid "Does not exist"
+msgstr "が存在していません。"
+
+#: wp-sitemanager/modules/site-structure.php:62
+#: wp-sitemanager/modules/site-structure.php:73
+msgid "Site Structure"
+msgstr "サイト構造"
+
+#: wp-sitemanager/modules/site-structure.php:63
+msgid "Management sitemap, breadcrumb navigation, and Sub Navigation."
+msgstr ""
+"サイトマップ、パンくずナビ、サブナビなど、サイトの構成を一元管理します。"
+
+#: wp-sitemanager/modules/site-structure.php:87
+#: wp-sitemanager/modules/site-structure.php:159
+msgid "Sitemap Settings"
+msgstr "サイトマップ設定 "
+
+#: wp-sitemanager/modules/site-structure.php:88
+msgid ""
+"Integrated management for configuration website structure, sitemap, "
+"breadcrumb, and sub navigation"
+msgstr ""
+"サイトマップの設定を行うことにより、サイトマップ、パンくずナビ、サブナビゲー"
+"ションの表示を統合的に管理できます。"
+
+#: wp-sitemanager/modules/site-structure.php:92
+msgid "Website Structure Settings"
+msgstr "サイト構造定義"
+
+#: wp-sitemanager/modules/site-structure.php:93
+msgid "Setting fixed page to be assigned each post type"
+msgstr "投稿タイプ毎に割り当てる固定ページの設定を行います。"
+
+#: wp-sitemanager/modules/site-structure.php:122
+msgid "set as"
+msgstr "を"
+
+#: wp-sitemanager/modules/site-structure.php:127
+msgid "List"
+msgstr "一覧"
+
+#: wp-sitemanager/modules/site-structure.php:143
+msgid "Characterize"
+msgstr "にひもづける"
+
+#: wp-sitemanager/modules/site-structure.php:150
+msgid "Order "
+msgstr "順序"
+
+#: wp-sitemanager/modules/site-structure.php:160
+msgid "Setting for Sitemap"
+msgstr "サイトマップ表示に関する設定を行います。 "
+
+#: wp-sitemanager/modules/site-structure.php:164
+msgid "Output levels"
+msgstr "出力階層制限"
+
+#: wp-sitemanager/modules/site-structure.php:167
+msgid "No limit"
+msgstr "制限なし"
+
+#: wp-sitemanager/modules/site-structure.php:172
+#, php-format
+msgid "Level %d"
+msgstr "第%d階層"
+
+#: wp-sitemanager/modules/site-structure.php:203
+msgid "Change style"
+msgstr "スタイルの変更"
+
+#: wp-sitemanager/modules/site-structure.php:206
+msgid "No style"
+msgstr "スタイルなし"
+
+#: wp-sitemanager/modules/site-structure.php:221
+msgid ""
+"For displaying sitemap, please describe “<code>[sitemap]</code>” to the "
+"section you want to view"
+msgstr ""
+"サイトマップを表示するには、サイトマップを表示したい箇所に<code>[sitemap]</"
+"code>と記述してください。"
+
+#: wp-sitemanager/modules/site-structure.php:224
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: wp-sitemanager/modules/site-structure.php:306
+#: wp-sitemanager/modules/site-structure.php:394
+#: wp-sitemanager/modules/site-structure.php:414
+msgid "Excluding from sitemap display"
+msgstr "サイトマップの表示から除外する"
+
+#: wp-sitemanager/modules/site-structure.php:408
+msgid "Sitemap"
+msgstr "サイトマップ表示 "
+
+#: wp-sitemanager/modules/site-structure.php:571
+msgid "Set as category page, and change permalink to first child page."
+msgstr "カテゴリー記事としてリンク先を子記事にする"
+
+#: wp-sitemanager/modules/site-structure.php:1031
+msgid "Realize an all-in-one sub navigation for home, post, and fixed page"
+msgstr "ホーム、投稿、固定ページでのサブナビをオールインワンで実現"
+
+#: wp-sitemanager/modules/site-structure.php:1052
+msgid "Sub Navigation"
+msgstr "パンくずナビ "
+
+#: wp-sitemanager/modules/site-structure.php:1068
+#: wp-sitemanager/modules/site-structure.php:1560
+msgid "Latest News"
+msgstr "最新情報"
+
+#: wp-sitemanager/modules/site-structure.php:1072
+#: wp-sitemanager/modules/site-structure.php:1561
+msgid "Update News"
+msgstr "更新情報 "
+
+#: wp-sitemanager/modules/site-structure.php:1091
+#: wp-sitemanager/modules/site-structure.php:1106
+#: wp-sitemanager/modules/site-structure.php:1120
+#: wp-sitemanager/modules/site-structure.php:1131
+#: wp-sitemanager/modules/site-structure.php:1138
+#: wp-sitemanager/modules/site-structure.php:1337
+#: wp-sitemanager/modules/site-structure.php:1352
+#: wp-sitemanager/modules/site-structure.php:1366
+#: wp-sitemanager/modules/site-structure.php:1377
+#: wp-sitemanager/modules/site-structure.php:1384
+msgid "Category"
+msgstr "Category"
+
+#: wp-sitemanager/modules/site-structure.php:1143
+#: wp-sitemanager/modules/site-structure.php:1148
+#: wp-sitemanager/modules/site-structure.php:1389
+#: wp-sitemanager/modules/site-structure.php:1394
+msgid "Archives"
+msgstr "年別アーカイブ"
+
+#: wp-sitemanager/modules/site-structure.php:1556
+msgid "Home"
+msgstr "ホーム"
+
+#: wp-sitemanager/modules/site-structure.php:1557
+#: wp-sitemanager/modules/site-structure.php:1590
+#: wp-sitemanager/modules/site-structure.php:1620
+msgid "Display content"
+msgstr "表示内容"
+
+#: wp-sitemanager/modules/site-structure.php:1559
+#: wp-sitemanager/modules/site-structure.php:1592
+#: wp-sitemanager/modules/site-structure.php:1622
+msgid "Not displayed"
+msgstr "表示しない"
+
+#: wp-sitemanager/modules/site-structure.php:1564
+#: wp-sitemanager/modules/site-structure.php:1600
+#: wp-sitemanager/modules/site-structure.php:1630
+msgid "Title"
+msgstr "タイトル"
+
+#: wp-sitemanager/modules/site-structure.php:1567
+msgid "Views"
+msgstr "表示数"
+
+#: wp-sitemanager/modules/site-structure.php:1570
+msgid "Post type"
+msgstr "表示タイプ"
+
+#: wp-sitemanager/modules/site-structure.php:1573
+#, fuzzy
+msgid "Post"
+msgstr "投稿数"
+
+#: wp-sitemanager/modules/site-structure.php:1577
+msgid "Page"
+msgstr "固定ページ"
+
+#: wp-sitemanager/modules/site-structure.php:1589
+msgid "Post and Archives"
+msgstr "月別アーカイブ"
+
+#: wp-sitemanager/modules/site-structure.php:1593
+msgid "All categories"
+msgstr "すべてのカテゴリー"
+
+#: wp-sitemanager/modules/site-structure.php:1594
+msgid "Children of the root category"
+msgstr "最上位カテゴリーの子カテゴリー"
+
+#: wp-sitemanager/modules/site-structure.php:1595
+msgid "Children of current category"
+msgstr "最上位カテゴリーの子カテゴリー"
+
+#: wp-sitemanager/modules/site-structure.php:1596
+msgid "Yearly Archives"
+msgstr "月別アーカイブ"
+
+#: wp-sitemanager/modules/site-structure.php:1597
+msgid "Monthly Archives"
+msgstr "月別アーカイブ"
+
+#: wp-sitemanager/modules/site-structure.php:1603
+msgid "Category display order "
+msgstr "カテゴリー表示順"
+
+#: wp-sitemanager/modules/site-structure.php:1605
+msgid "Category Name"
+msgstr "カテゴリー名"
+
+#: wp-sitemanager/modules/site-structure.php:1606
+msgid "Category slug"
+msgstr "カテゴリースラッグ"
+
+#: wp-sitemanager/modules/site-structure.php:1607
+msgid "Number of posts"
+msgstr "投稿数"
+
+#: wp-sitemanager/modules/site-structure.php:1610
+msgid "Ascending"
+msgstr "昇順"
+
+#: wp-sitemanager/modules/site-structure.php:1611
+msgid "Descending"
+msgstr "降順"
+
+#: wp-sitemanager/modules/site-structure.php:1615
+msgid "Archive Views"
+msgstr "アーカイブ表示数"
+
+#: wp-sitemanager/modules/site-structure.php:1619
+msgid "Fixed page"
+msgstr "固定ページ"
+
+#: wp-sitemanager/modules/site-structure.php:1623
+msgid "View underlying page, based in root page"
+msgstr "最上位を基点とした下層ページを表示"
+
+#: wp-sitemanager/modules/site-structure.php:1624
+msgid "View first, top level, child pages, based in root page"
+msgstr "最上位を基点、第一、上位、子ページを表示"
+
+#: wp-sitemanager/modules/site-structure.php:1625
+msgid "View underlying page, based in current page"
+msgstr "現在地を基点とした下層ページを表示"
+
+#: wp-sitemanager/modules/site-structure.php:1628
+msgid "View base page"
+msgstr "基点ページを表示する"
+
+#: wp-sitemanager/modules/site-structure.php:1634
+msgid "Level of display"
+msgstr "表示階層数"
+
+#: wp-sitemanager/modules/site-structure.php:1637
+msgid "Exclusion page ID"
+msgstr "除外ページ"
+
+#: wp-sitemanager/modules/theme_switcher.php:46
+msgid "Theme Switcher"
+msgstr "Theme Switcher"
+
+#: wp-sitemanager/modules/theme_switcher.php:47
+msgid "Select thema by determine device"
+msgstr "デバイスを判定し、表示するテーマの切り替えを行います。"
+
+#: wp-sitemanager/modules/theme_switcher.php:60
+msgid "Multi Device"
+msgstr "マルチデバイス"
+
+#: wp-sitemanager/modules/theme_switcher.php:355
+msgid "Device settings"
+msgstr "キャッシュ設定"
+
+#: wp-sitemanager/modules/theme_switcher.php:356
+#: wp-sitemanager/modules/theme_switcher.php:377
+#: wp-sitemanager/modules/theme_switcher.php:454
+msgid "Device Group"
+msgstr "デバイスグループ"
+
+#: wp-sitemanager/modules/theme_switcher.php:356
+msgid "Add new group"
+msgstr "グループを追加"
+
+#: wp-sitemanager/modules/theme_switcher.php:358
+#: wp-sitemanager/modules/theme_switcher.php:440
+#: wp-sitemanager/modules/theme_switcher.php:743
+msgid "Device"
+msgstr "デバイス"
+
+#: wp-sitemanager/modules/theme_switcher.php:358
+msgid "Add new device"
+msgstr "デバイスを追加"
+
+#: wp-sitemanager/modules/theme_switcher.php:378
+#: wp-sitemanager/modules/theme_switcher.php:441
+msgid "Back to list"
+msgstr "一覧に戻る"
+
+#: wp-sitemanager/modules/theme_switcher.php:383
+#: wp-sitemanager/modules/theme_switcher.php:739
+#: wp-sitemanager/modules/theme_switcher.php:857
+msgid "Group Name"
+msgstr "グループ名"
+
+#: wp-sitemanager/modules/theme_switcher.php:387
+#: wp-sitemanager/modules/theme_switcher.php:740
+msgid "Theme"
+msgstr "テーマ"
+
+#: wp-sitemanager/modules/theme_switcher.php:390
+msgid "No Theme Switching"
+msgstr "No Theme Switching"
+
+#: wp-sitemanager/modules/theme_switcher.php:410
+#: wp-sitemanager/modules/theme_switcher.php:741
+msgid "Slug"
+msgstr "スラッグ"
+
+#: wp-sitemanager/modules/theme_switcher.php:414
+#: wp-sitemanager/modules/theme_switcher.php:742
+msgid "Priority"
+msgstr "優先度"
+
+#: wp-sitemanager/modules/theme_switcher.php:446
+#: wp-sitemanager/modules/theme_switcher.php:855
+msgid "Device Name"
+msgstr "デバイス名"
+
+#: wp-sitemanager/modules/theme_switcher.php:450
+msgid "Device Keywords"
+msgstr "キーワード"
+
+#~ msgid "Contribution"
+#~ msgstr "投稿"
+
+#~ msgid "Incluce taxonomies for keywords of article"
+#~ msgstr "記事のキーワードに含める分類"
+
+#~ msgid "Using taxonomy of keywords of taxonomy"
+#~ msgstr "タクソノミーのメタキーワード"
+
+#~ msgid "Latest news"
+#~ msgstr "最新情報"
+
+#~ msgid "Do not show"
+#~ msgstr "表示しない"
+
+#~ msgid "Group name"
+#~ msgstr "グループ名"
+
+#~ msgid "Device name"
+#~ msgstr "デバイス名"
+
+#~ msgid "Activation"
+#~ msgstr "有効化"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Meta keywords"
+#~ msgstr "メタキーワード"
+
+#~ msgid "Site wide setting"
+#~ msgstr "サイトワイド設定"
+
+#~ msgid "Article setting"
+#~ msgstr "記事設定"
+
+#~ msgid "Classification to be included in the article of keyword"
+#~ msgstr "記事のキーワードに含める分類"
+
+#~ msgid "I used as a description of the article is an excerpt"
+#~ msgstr "抜粋を記事のディスクリプションとして利用する"
+
+#~ msgid "I include the keyword classification name"
+#~ msgstr "分類名をキーワードに含める"
+
+#~ msgid "Common Image"
+#~ msgstr "共通イメージ画像"
+
+#~ msgid "Site account of Twitter Cards"
+#~ msgstr "Twitter Cardsのサイトアカウント"
+
+#~ msgid "I will make available the cache function."
+#~ msgstr "キャッシュ機能を利用可能にします。"
+
+#~ msgid ""
+#~ "Cache is not enabled . To be effective , the above description of the wp-"
+#~ "config.php \"The need to edit ! ... This is the end \" and"
+#~ msgstr ""
+#~ "キャッシュは有効になっていません。有効にするためには、wp-config.phpの「編"
+#~ "集が必要なのはここまでです !…」という記述より上に"
+
+#~ msgid "You need to write a."
+#~ msgstr "と記述する必要があります。"
+
+#~ msgid "Article detail"
+#~ msgstr "記事詳細"
+
+#~ msgid ""
+#~ "You want to exclude the cache , you can specify URL patterns ( regular "
+#~ "expressions accessible ) . If you specify more than one pattern , please "
+#~ "put a line break."
+#~ msgstr ""
+#~ "キャッシュを除外したい、URLパターン（正規表現利用可）を指定できます。複数"
+#~ "のパターンを指定する場合は、改行を入れてください。"
+
+#~ msgid "Regenerating"
+#~ msgstr "の再生成"
+
+#~ msgid "I want to generate a"
+#~ msgstr "を生成する"
+
+#~ msgid ", or "
+#~ msgstr "、または"
+
+#~ msgid "Site structure"
+#~ msgstr "サイト構造"
+
+#~ msgid ""
+#~ "By setting the site map, you can manage in an integrated manner display "
+#~ "site map, breadcrumb navigation, sub-navigation."
+#~ msgstr ""
+#~ "サイトマップの設定を行うことにより、サイトマップ、パンくずナビ、サブナビ"
+#~ "ゲーションの表示を統合的に管理できます。"
+
+#~ msgid ""
+#~ "This area is used to set a fixed page to be assigned to each type of "
+#~ "post, based on the fixed page ."
+#~ msgstr ""
+#~ "固定ページをベースとして投稿タイプ毎に割り当てる固定ページの設定を行いま"
+#~ "す。"
+
+#~ msgid "The"
+#~ msgstr "を"
+
+#~ msgid "Summary"
+#~ msgstr "一覧"
+
+#~ msgid "I characterize the string."
+#~ msgstr "にひもづける。"
+
+#~ msgid "To display the sitemap please paste the "
+#~ msgstr "サイトマップを表示するには、サイトマップを表示したい箇所に"
+
+#~ msgid "to the page you want."
+#~ msgstr "と記述してください。"
+
+#~ msgid "Exclude from display on the sitemap"
+#~ msgstr "サイトマップでの表示から除外する"
+
+#~ msgid "I a child article linked articles as a category"
+#~ msgstr "カテゴリー記事としてリンク先を子記事にする"
+
+#~ msgid "Sub Navi"
+#~ msgstr "サブナビ"
+
+#~ msgid "Up-to-date information"
+#~ msgstr "最新情報"
+
+#~ msgid "Display type"
+#~ msgstr "表示タイプ"
+
+#~ msgid "Post-category tag archive author"
+#~ msgstr "投稿・カテゴリー・タグ・アーカイブ・作成者"
+
+#~ msgid "Child category being displayed "
+#~ msgstr "表示中の子カテゴリー"
+
+#~ msgid "By name"
+#~ msgstr "名前順"
+
+#~ msgid ""
+#~ "Show starting point, first, the upper, the child page the most significant"
+#~ msgstr "最上位を基点、第一、上位、子ページを表示<"
+
+#~ msgid "I want to display the root page"
+#~ msgstr "基点ページを表示する"
+
+#~ msgid "Display the number of layers"
+#~ msgstr "表示階層数"
+
+#~ msgid ""
+#~ "According to the settings on the device decision, menu is used to select "
+#~ "the theme you want to view."
+#~ msgstr ""
+#~ "デバイス判定で設定した内容に従って、表示するテーマの切り替えを行います。"
+
+#~ msgid "Decision device"
+#~ msgstr "デバイス判定"
+
+#~ msgid "Adding"
+#~ msgstr "追加"
+
+#~ msgid "To list page"
+#~ msgstr "一覧ページへ"
+
+#~ msgid "Current Theme"
+#~ msgstr "テーマの切り替えなし"
+
+#~ msgid "Category Slug"
+#~ msgstr "スラッグ"
+
+#~ msgid "Application device"
+#~ msgstr "適用デバイス"
+
+#~ msgid "Output hierarchical limit"
+#~ msgstr "出力階層制限"
+
+#~ msgid "Account of site"
+#~ msgstr "のサイトアカウント"
+
+#~ msgid "Please describe them as."
+#~ msgstr "と記述してください。"
+
+#~ msgid "First"
+#~ msgstr "第"
+
+#~ msgid "Hierarchy"
+#~ msgstr "階層"
+
+#~ msgid "No switching of theme"
+#~ msgstr "テーマの切り替えなし"
+
+#~ msgid ""
+#~ "デバイス判定で設定した内容に従って、表示するテーマの切り替えを行います。"
+#~ msgstr ""
+#~ "デバイス判定で設定した内容に従って、表示するテーマの切り替えを行います。"
+
+#~ msgid "パンくずナビ"
+#~ msgstr "パンくずナビ"
+
+#~ msgid "一覧ページへ"
+#~ msgstr "一覧ページへ"
+
+#~ msgid "デバイスグループ"
+#~ msgstr "デバイスグループ"
+
+#~ msgid "メタ情報"
+#~ msgstr "メタ情報"
+
+#~ msgid "メタキーワード"
+#~ msgstr "メタキーワード"
+
+#~ msgid "メタディスクリプション"
+#~ msgstr "メタディスクリプション"
+
+#~ msgid "サブナビ"
+#~ msgstr "サブナビ"
+
+#~ msgid "と記述する必要があります。"
+#~ msgstr "と記述する必要があります。"
+
+#~ msgid "は存在していますが、"
+#~ msgstr "は存在していますが、"
+
+#~ msgid "のものとは異なっています。"
+#~ msgstr "のものとは異なっています。"
+
+#~ msgid "に読み込み権限がありません。"
+#~ msgstr "に読み込み権限がありません。"
+
+#~ msgid "が存在していません。"
+#~ msgstr "が存在していません。"
+
+#~ msgid "サイトマップ設定に従ったパンくずナビを表示します。"
+#~ msgstr "サイトマップ設定に従ったパンくずナビを表示します。"
+
+#~ msgid "メタ情報設定"
+#~ msgstr "メタ情報設定"
+
+#~ msgid ""
+#~ "サイトのheadタグ内にメタキーワード、メタディスクリプションの表示を行いま"
+#~ "す。"
+#~ msgstr ""
+#~ "サイトのheadタグ内にメタキーワード、メタディスクリプションの表示を行いま"
+#~ "す。"
+
+#~ msgid "ページナビ（ページャー）"
+#~ msgstr "ページナビ（ページャー）"
+
+#~ msgid ""
+#~ "カテゴリーや年月・作成者などのアーカイブページにおいて、ページナビ（ペー"
+#~ "ジャー）を表示します。"
+#~ msgstr ""
+#~ "カテゴリーや年月・作成者などのアーカイブページにおいて、ページナビ（ペー"
+#~ "ジャー）を表示します。"
+
+#~ msgid "キャッシュ"
+#~ msgstr "キャッシュ"
+
+#~ msgid "キャッシュ機能を利用可能にします。"
+#~ msgstr "キャッシュ機能を利用可能にします。"
+
+#~ msgid ""
+#~ "サイトマップ、パンくずナビ、サブナビなど、サイトの構成を一元管理します。"
+#~ msgstr ""
+#~ "サイトマップ、パンくずナビ、サブナビなど、サイトの構成を一元管理します。"
+
+#~ msgid "最新情報"
+#~ msgstr "最新情報"
+
+#~ msgid "更新情報"
+#~ msgstr "更新情報"
+
+#~ msgid "ホーム"
+#~ msgstr "ホーム"
+
+#~ msgid "表示内容"
+#~ msgstr "表示内容"
+
+#~ msgid "表示しない"
+#~ msgstr "表示しない"
+
+#~ msgid "タイトル"
+#~ msgstr "タイトル"
+
+#~ msgid "表示数"
+#~ msgstr "表示数"
+
+#~ msgid "表示タイプ"
+#~ msgstr "表示タイプ"
+
+#~ msgid "投稿"
+#~ msgstr "投稿"
+
+#~ msgid "固定ページ"
+#~ msgstr "固定ページ"
+
+#~ msgid "投稿・カテゴリー・タグ・アーカイブ・作成者"
+#~ msgstr "投稿・カテゴリー・タグ・アーカイブ・作成者"
+
+#~ msgid "すべてのカテゴリー"
+#~ msgstr "すべてのカテゴリー"
+
+#~ msgid "最上位カテゴリーの子カテゴリー"
+#~ msgstr "最上位カテゴリーの子カテゴリー"
+
+#~ msgid "表示中の子カテゴリー"
+#~ msgstr "表示中の子カテゴリー"
+
+#~ msgid "年別アーカイブ"
+#~ msgstr "年別アーカイブ"
+
+#~ msgid "月別アーカイブ"
+#~ msgstr "月別アーカイブ"
+
+#~ msgid "カテゴリー表示順"
+#~ msgstr "カテゴリー表示順"
+
+#~ msgid "名前順"
+#~ msgstr "名前順"
+
+#~ msgid "カテゴリースラッグ"
+#~ msgstr "カテゴリースラッグ"
+
+#~ msgid "投稿数"
+#~ msgstr "投稿数"
+
+#~ msgid "昇順"
+#~ msgstr "昇順"
+
+#~ msgid "降順"
+#~ msgstr "降順"
+
+#~ msgid "アーカイブ表示数"
+#~ msgstr "アーカイブ表示数"
+
+#~ msgid "最上位を基点とした下層ページを表示"
+#~ msgstr "最上位を基点とした下層ページを表示"
+
+#~ msgid "最上位を基点、第一、上位、子ページを表示"
+#~ msgstr "最上位を基点、第一、上位、子ページを表示"
+
+#~ msgid "現在地を基点とした下層ページを表示"
+#~ msgstr "現在地を基点とした下層ページを表示"
+
+#~ msgid "基点ページを表示する"
+#~ msgstr "基点ページを表示する"
+
+#~ msgid "表示階層数"
+#~ msgstr "表示階層数"
+
+#~ msgid "除外ページ"
+#~ msgstr "除外ページ"
+
+#~ msgid "ホーム、投稿、固定ページでのサブナビをオールインワンで実現"
+#~ msgstr ""
+#~ "Home, post, Sub Navigation at a fixed page Realized in the one page (all-"
+#~ "in-one)"
+
+#~ msgid "トップページ"
+#~ msgstr "トップページ"
+
+#~ msgid "を"
+#~ msgstr "を"
+
+#~ msgid "一覧"
+#~ msgstr "一覧"
+
+#~ msgid "マルチデバイス"
+#~ msgstr "マルチデバイス"
+
+#~ msgid "デバイス判定"
+#~ msgstr "デバイス判定"
+
+#~ msgid "追加"
+#~ msgstr "追加"
+
+#~ msgid "デバイス"
+#~ msgstr "デバイス"
+
+#~ msgid "グループ名"
+#~ msgstr "グループ名"
+
+#~ msgid "テーマ"
+#~ msgstr "テーマ"
+
+#~ msgid "テーマの切り替えなし"
+#~ msgstr "テーマの切り替えなし"
+
+#~ msgid "スラッグ"
+#~ msgstr "スラッグ"
+
+#~ msgid "優先度"
+#~ msgstr "優先度"
+
+#~ msgid "デバイス名"
+#~ msgstr "デバイス名"
+
+#~ msgid "キーワード"
+#~ msgstr "キーワード"
+
+#~ msgid "適用デバイス"
+#~ msgstr "適用デバイス"
+
+#~ msgid "グループ"
+#~ msgstr "グループ"
+
+#~ msgid "キャッシュ設定"
+#~ msgstr "キャッシュ設定"
+
+#~ msgid "キャッシュの有効期限"
+#~ msgstr "キャッシュの有効期限"
+
+#~ msgid ""
+#~ "キャッシュは有効になっていません。有効にするためには、wp-config.phpの「編"
+#~ "集が必要なのはここまでです !…」という記述より上に"
+#~ msgstr ""
+#~ "キャッシュは有効になっていません。有効にするためには、wp-config.phpの「編"
+#~ "集が必要なのはここまでです !…」という記述より上に"
+
+#~ msgid "分"
+#~ msgstr "分"
+
+#~ msgid "アーカイブ（一覧）"
+#~ msgstr "アーカイブ（一覧）"
+
+#~ msgid "記事詳細"
+#~ msgstr "記事詳細"
+
+#~ msgid "キャッシュ除外"
+#~ msgstr "キャッシュ除外"
+
+#~ msgid ""
+#~ "キャッシュを除外したい、URLパターン（正規表現利用可）を指定できます。複数"
+#~ "のパターンを指定する場合は、改行を入れてください。"
+#~ msgstr ""
+#~ "キャッシュを除外したい、URLパターン（正規表現利用可）を指定できます。複数"
+#~ "のパターンを指定する場合は、改行を入れてください。"
+
+#~ msgid "キャッシュするクエリ文字列"
+#~ msgstr "キャッシュするクエリ文字列"
+
+#~ msgid "キャッシュデータとして有効なクエリ文字列のキーを入力してください。"
+#~ msgstr "キャッシュデータとして有効なクエリ文字列のキーを入力してください。"
+
+#~ msgid "記事公開時に削除するキャッシュの範囲"
+#~ msgstr "記事公開時に削除するキャッシュの範囲"
+
+#~ msgid "削除しない"
+#~ msgstr "削除しない"
+
+#~ msgid "記事のみ"
+#~ msgstr "記事のみ"
+
+#~ msgid "記事とトップページ"
+#~ msgstr "記事とトップページ"
+
+#~ msgid "すべて"
+#~ msgstr "すべて"
+
+#~ msgid "キャッシュのクリア"
+#~ msgstr "キャッシュのクリア"
+
+#~ msgid "キャッシュを全てクリア"
+#~ msgstr "キャッシュを全てクリア"
+
+#~ msgid "の再生成"
+#~ msgstr "の再生成"
+
+#~ msgid "を生成する"
+#~ msgstr "を生成する"
+
+#~ msgid "、または "
+#~ msgstr "、または "
+
+#~ msgid ""
+#~ "に書き込み権限がありません。advanced-cache.phpの再生成を行うには、書き込み"
+#~ "権限を設定してください。"
+#~ msgstr ""
+#~ "に書き込み権限がありません。advanced-cache.phpの再生成を行うには、書き込み"
+#~ "権限を設定してください。"
+
+#~ msgid "サイト構造"
+#~ msgstr "サイト構造"
+
+#~ msgid "サイトマップ設定"
+#~ msgstr "サイトマップ設定"
+
+#~ msgid ""
+#~ "サイトマップの設定を行うことにより、サイトマップ、パンくずナビ、サブナビ"
+#~ "ゲーションの表示を統合的に管理できます。"
+#~ msgstr ""
+#~ "サイトマップの設定を行うことにより、サイトマップ、パンくずナビ、サブナビ"
+#~ "ゲーションの表示を統合的に管理できます。"
+
+#~ msgid "サイト構造定義"
+#~ msgstr "サイト構造定義"
+
+#~ msgid ""
+#~ "固定ページをベースとして投稿タイプ毎に割り当てる固定ページの設定を行いま"
+#~ "す。"
+#~ msgstr ""
+#~ "固定ページをベースとして投稿タイプ毎に割り当てる固定ページの設定を行いま"
+#~ "す。"
+
+#~ msgid "にひもづける。"
+#~ msgstr "にひもづける。"
+
+#~ msgid "順序"
+#~ msgstr "順序"
+
+#~ msgid "サイトマップ表示に関する設定を行います。"
+#~ msgstr "サイトマップ表示に関する設定を行います。"
+
+#~ msgid "出力階層制限"
+#~ msgstr "出力階層制限"
+
+#~ msgid "制限なし"
+#~ msgstr "制限なし"
+
+#~ msgid "第"
+#~ msgstr "第"
+
+#~ msgid "階層"
+#~ msgstr "階層"
+
+#~ msgid "スタイルの変更"
+#~ msgstr "スタイルの変更"
+
+#~ msgid "スタイルなし"
+#~ msgstr "スタイルなし"
+
+#~ msgid "サイトマップを表示するには、サイトマップを表示したい箇所に"
+#~ msgstr "サイトマップを表示するには、サイトマップを表示したい箇所に"
+
+#~ msgid "と記述してください。"
+#~ msgstr "と記述してください。"
+
+#~ msgid "サイトマップの表示から除外する"
+#~ msgstr "サイトマップの表示から除外する"
+
+#~ msgid "サイトマップでの表示から除外する"
+#~ msgstr "サイトマップでの表示から除外する"
+
+#~ msgid "サイトマップ表示"
+#~ msgstr "サイトマップ表示"
+
+#~ msgid "カテゴリー記事としてリンク先を子記事にする"
+#~ msgstr "カテゴリー記事としてリンク先を子記事にする"
+
+#~ msgid "%s年"
+#~ msgstr "%s年"
+
+#~ msgid "%s月"
+#~ msgstr "%s月"
+
+#~ msgid "%s日"
+#~ msgstr "%s日"
+
+#~ msgid "キーワード &amp; ディスクリプション"
+#~ msgstr "キーワード &amp; ディスクリプション"
+
+#~ msgid "サイトワイド設定"
+#~ msgstr "サイトワイド設定"
+
+#~ msgid "共通キーワード"
+#~ msgstr "共通キーワード"
+
+#~ msgid "基本ディスクリプション"
+#~ msgstr "基本ディスクリプション"
+
+#~ msgid "記事設定"
+#~ msgstr "記事設定"
+
+#~ msgid "記事のキーワードに含める分類"
+#~ msgstr "記事のキーワードに含める分類"
+
+#~ msgid "記事のメタディスクリプション"
+#~ msgstr "記事のメタディスクリプション"
+
+#~ msgid "抜粋を記事のディスクリプションとして利用する"
+#~ msgstr "抜粋を記事のディスクリプションとして利用する"
+
+#~ msgid "タクソノミー設定"
+#~ msgstr "タクソノミー設定"
+
+#~ msgid "タクソノミーのメタキーワード"
+#~ msgstr "タクソノミーのメタキーワード"
+
+#~ msgid "分類名をキーワードに含める"
+#~ msgstr "分類名をキーワードに含める"
+
+#~ msgid "ソーシャル設定"
+#~ msgstr "ソーシャル設定"
+
+#~ msgid "共通イメージ画像"
+#~ msgstr "共通イメージ画像"
+
+#~ msgid "画像を選択"
+#~ msgstr "画像を選択"
+
+#~ msgid "画像を削除"
+#~ msgstr "画像を削除"
+
+#~ msgid "の出力"
+#~ msgstr "の出力"
+
+#~ msgid "出力する"
+#~ msgstr "出力する"
+
+#~ msgid "のサイトアカウント"
+#~ msgstr "のサイトアカウント"
+
+#~ msgid "モジュール"
+#~ msgstr "Module"
+
+#~ msgid "停止"
+#~ msgstr "Stop"
+
+#~ msgid "モジュールがインストールされていません。"
+#~ msgstr "Module is not installed."
+
+#~ msgid "一般設定"
+#~ msgstr "General Settings"
+
+#~ msgid "FRONT PAGE"
+#~ msgstr "HOME"
+
+#~ msgid "『%s』の検索結果"
+#~ msgstr "Search result of \"%s\""
+
+#, fuzzy
+#~ msgid "モジュールモジュール"
+#~ msgstr "Module"

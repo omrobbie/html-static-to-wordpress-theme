@@ -1,0 +1,1153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_site-manager\n"
+"POT-Creation-Date: 2014-09-09 13:34+0700\n"
+"PO-Revision-Date: 2014-09-09 13:34+0700\n"
+"Last-Translator: \n"
+"Language-Team: psi-indonesia\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;_x\n"
+"X-Poedit-SearchPath-0: wp-sitemanager\n"
+
+#: wp-sitemanager/wp-sitemanager.php:89 wp-sitemanager/wp-sitemanager.php:176
+msgid "Module"
+msgstr "Modul"
+
+#: wp-sitemanager/wp-sitemanager.php:196
+msgid "Enable"
+msgstr "Enable"
+
+#: wp-sitemanager/wp-sitemanager.php:205
+msgid "Disable"
+msgstr "Disable"
+
+#: wp-sitemanager/wp-sitemanager.php:219
+msgid "Module is not installed."
+msgstr "Modul tidak terinstal."
+
+#: wp-sitemanager/wp-sitemanager.php:462
+msgid "General Settings"
+msgstr "Pengaturan Umum"
+
+#: wp-sitemanager/modules/bread-crumb.php:24
+msgid "Breadcrumb Navigation"
+msgstr "Navigasi Breadcrumb"
+
+#: wp-sitemanager/modules/bread-crumb.php:25
+msgid ""
+"In order to view the site map , select the section you would like to view."
+msgstr "Menampilkan breadcrumb navigation dari settingan sitemap"
+
+#: wp-sitemanager/modules/bread-crumb.php:33
+msgid "HOME"
+msgstr "HOME"
+
+#: wp-sitemanager/modules/bread-crumb.php:34
+#, php-format
+msgid "Search result of \"%s\""
+msgstr "Hasil Pencariaan Untuk \"%s\""
+
+#: wp-sitemanager/modules/bread-crumb.php:35
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: wp-sitemanager/modules/bread-crumb.php:36
+#: wp-sitemanager/modules/bread-crumb.php:37
+#: wp-sitemanager/modules/bread-crumb.php:38
+#: wp-sitemanager/modules/bread-crumb.php:39
+#: wp-sitemanager/modules/bread-crumb.php:40
+#: wp-sitemanager/modules/bread-crumb.php:44
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: wp-sitemanager/modules/bread-crumb.php:41
+#, php-format
+msgid "%s Year"
+msgstr "%s Tahun"
+
+#: wp-sitemanager/modules/bread-crumb.php:42
+#, php-format
+msgid "%s Month"
+msgstr "%s Bulan"
+
+#: wp-sitemanager/modules/bread-crumb.php:43
+#, php-format
+msgid "%s Date"
+msgstr "%s Hari"
+
+#: wp-sitemanager/modules/bread-crumb.php:45
+msgid " &gt; "
+msgstr " &gt; "
+
+#: wp-sitemanager/modules/meta-manager.php:62
+msgid "Meta Information Setting"
+msgstr "Pengaturan Meta"
+
+#: wp-sitemanager/modules/meta-manager.php:63
+msgid "Display meta keywords, meta description and SNS tags in the head tag."
+msgstr ""
+"Saya melakukan menampilkan meta keyword, meta description pada tag kepala "
+"situs."
+
+#: wp-sitemanager/modules/meta-manager.php:83
+#: wp-sitemanager/modules/meta-manager.php:96
+#: wp-sitemanager/modules/meta-manager.php:136
+#: wp-sitemanager/modules/theme_switcher.php:856
+msgid "Meta Keywords"
+msgstr "Kata kunci Meta"
+
+#: wp-sitemanager/modules/meta-manager.php:87
+#: wp-sitemanager/modules/meta-manager.php:100
+#: wp-sitemanager/modules/meta-manager.php:138
+msgid "Meta Description"
+msgstr "Deskripsi Meta"
+
+#: wp-sitemanager/modules/meta-manager.php:126
+msgid "Meta Information"
+msgstr "Informasi Meta"
+
+#: wp-sitemanager/modules/meta-manager.php:346
+msgid "(no title)"
+msgstr "(no title)"
+
+#: wp-sitemanager/modules/meta-manager.php:556
+msgid "Keyword &amp; description"
+msgstr "Kata Kunci &amp; Deskripsi"
+
+#: wp-sitemanager/modules/meta-manager.php:557
+msgid "Basic Setting"
+msgstr "Pengaturan Umum"
+
+#: wp-sitemanager/modules/meta-manager.php:560
+msgid "Common Keyword"
+msgstr "Common Keyword"
+
+#: wp-sitemanager/modules/meta-manager.php:568
+msgid "Basic Description"
+msgstr "Basic Description"
+
+#: wp-sitemanager/modules/meta-manager.php:576
+msgid "Post setting"
+msgstr "Post setting"
+
+#: wp-sitemanager/modules/meta-manager.php:580
+msgid "Include taxonomies for keywords of post"
+msgstr "Sertakan taksonomi untuk kata kunci dari artikel"
+
+#: wp-sitemanager/modules/meta-manager.php:595
+msgid "Description of post"
+msgstr "Description of post"
+
+#: wp-sitemanager/modules/meta-manager.php:599
+msgid "Using excerpt for post description"
+msgstr "Menggunakan excerpt sebagai description"
+
+#: wp-sitemanager/modules/meta-manager.php:604
+msgid "Taxonomy Setting"
+msgstr "Pengaturan Taxonomy "
+
+#: wp-sitemanager/modules/meta-manager.php:607
+msgid "Meta Keywords Taxonomy"
+msgstr "Kata Kunci Meta Taxonomy"
+
+#: wp-sitemanager/modules/meta-manager.php:611
+msgid "Include taxonomies name for keywords of taxonomy"
+msgstr "Sertakan nama taksonomi untuk kata kunci dari taksonomi"
+
+#: wp-sitemanager/modules/meta-manager.php:616
+msgid "SNS Setting"
+msgstr "Pengaturan SNS"
+
+#: wp-sitemanager/modules/meta-manager.php:619
+msgid "Basic Image"
+msgstr "Gambar Dasar"
+
+#: wp-sitemanager/modules/meta-manager.php:621
+msgid "Select a picture"
+msgstr "Pilih Gambar"
+
+#: wp-sitemanager/modules/meta-manager.php:623
+msgid "Remove Image"
+msgstr "Hapus Gambar"
+
+#: wp-sitemanager/modules/meta-manager.php:631
+msgid "Output of OGP"
+msgstr "Output of OGP"
+
+#: wp-sitemanager/modules/meta-manager.php:635
+#: wp-sitemanager/modules/meta-manager.php:644
+msgid "Output"
+msgstr "Output"
+
+#: wp-sitemanager/modules/meta-manager.php:640
+msgid "Output of Twitter Cards"
+msgstr "Output of Twitter Cards"
+
+#: wp-sitemanager/modules/meta-manager.php:649
+msgid "Twitter Account"
+msgstr "Akun Twitter"
+
+#: wp-sitemanager/modules/page-navi.php:26
+msgid "&lt;"
+msgstr "&lt;"
+
+#: wp-sitemanager/modules/page-navi.php:27
+msgid "&gt;"
+msgstr "&gt;"
+
+#: wp-sitemanager/modules/page-navi.php:29
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-sitemanager/modules/page-navi.php:30
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-sitemanager/modules/page-navi.php:221
+msgid "Page Navigation"
+msgstr "Petunjuk Halaman"
+
+#: wp-sitemanager/modules/page-navi.php:222
+msgid ""
+"In the archive page, such as date, author or category, Page Navigation will "
+"be display."
+msgstr ""
+"Pada halaman arsip, seperti tanggal, penulis atau kategori, saya akan "
+"menampilkan halaman navigasi (pager)."
+
+#: wp-sitemanager/modules/site-cache.php:56
+#: wp-sitemanager/modules/site-cache.php:113
+msgid "Cache"
+msgstr "Cache"
+
+#: wp-sitemanager/modules/site-cache.php:57
+msgid "Reduce server load by cache to improves displaying speed"
+msgstr ""
+"Meringankan beban server dengan menggunakan cache untuk mempercepat tampilan"
+
+#: wp-sitemanager/modules/site-cache.php:123
+msgid "Cache Settings"
+msgstr "Pengaturan Cache"
+
+#: wp-sitemanager/modules/site-cache.php:124
+msgid "Cache Expiration"
+msgstr "Batas waktu Cache "
+
+#: wp-sitemanager/modules/site-cache.php:127
+msgid ""
+"Cache is not enabled. Please write <code>define( 'WP_CACHE', true );</code> "
+"above  <code>/* That's all, stop editing! Happy blogging. */</code> "
+"statement in wp-config.php, for enabling cache."
+msgstr ""
+"Cache tidak berlaku. Untuk mengaktifkan cache, masukkan "
+"<code>define( 'WP_CACHE', true );</code> di atas tulisan <code>/* That's "
+"all, stop editing! Happy blogging. */</code> pada file wp-config.php"
+
+#: wp-sitemanager/modules/site-cache.php:139
+#: wp-sitemanager/modules/site-structure.php:121
+msgid "Front page"
+msgstr "Front page"
+
+#: wp-sitemanager/modules/site-cache.php:141
+#: wp-sitemanager/modules/site-cache.php:147
+#: wp-sitemanager/modules/site-cache.php:153
+msgid "Minutes"
+msgstr "Menit"
+
+#: wp-sitemanager/modules/site-cache.php:145
+msgid "Archive (List)"
+msgstr "Archive (List)"
+
+#: wp-sitemanager/modules/site-cache.php:151
+msgid "Detail Article"
+msgstr "Detail Article"
+
+#: wp-sitemanager/modules/site-cache.php:157
+msgid "Cache exclusion"
+msgstr "Pengecualian Cache"
+
+#: wp-sitemanager/modules/site-cache.php:160
+msgid ""
+"You can specify URL patterns (can use regex) for excluding cache. Put a line "
+"break for specify more than one patters"
+msgstr ""
+"Menghilangkan cache bisa menggunakan URL pattern (atau regex). Gunakan break "
+"line saat menggunakan banyak pattern"
+
+#: wp-sitemanager/modules/site-cache.php:164
+msgid "Query string to cache"
+msgstr "Query string to cache"
+
+#: wp-sitemanager/modules/site-cache.php:167
+msgid "Please enter a key of valid query string as cache data"
+msgstr "Masukkan key dari query string yang berlaku sebagai cache data"
+
+#: wp-sitemanager/modules/site-cache.php:171
+msgid "Range of cache will be delete when article is published"
+msgstr "Range cache yang akan dihapus saat mempublish artikel"
+
+#: wp-sitemanager/modules/site-cache.php:173
+msgid "Do not delete"
+msgstr "Do not delete"
+
+#: wp-sitemanager/modules/site-cache.php:174
+msgid "Only Article"
+msgstr "Hanaya Artikel"
+
+#: wp-sitemanager/modules/site-cache.php:175
+msgid "Post &amp; Front page"
+msgstr "Post &amp; Front page"
+
+#: wp-sitemanager/modules/site-cache.php:176
+msgid "All"
+msgstr "Semua"
+
+#: wp-sitemanager/modules/site-cache.php:181
+msgid "Clear Cache"
+msgstr "Hapus cache"
+
+#: wp-sitemanager/modules/site-cache.php:182
+msgid "Clear all the cache"
+msgstr "Hapus semua cache"
+
+#: wp-sitemanager/modules/site-cache.php:186
+msgid "Regenerate advanced-cache.php"
+msgstr "Membuat ulang advanced-cache.php"
+
+#: wp-sitemanager/modules/site-cache.php:188
+msgid "Generate advanced-cache.php"
+msgstr "Membuat advanced-cache.php"
+
+#: wp-sitemanager/modules/site-cache.php:190
+#, php-format
+msgid ""
+"No permission to re-write file %s or advanced-cache.php. Please set re-write "
+"permission to enable re-generate advanced-cache.php"
+msgstr ""
+"Hak untuk mengedit advanced-cache.php dan %s tidak ada. Silakan mensetting "
+"premission untuk pembuatan advanced-caceh.php"
+
+#: wp-sitemanager/modules/site-cache.php:244
+msgid "Although you not exist, "
+msgstr "Meskipun Anda tidak ada"
+
+#: wp-sitemanager/modules/site-cache.php:244
+msgid "I am different from that of."
+msgstr "Saya berbeda dari."
+
+#: wp-sitemanager/modules/site-cache.php:247
+msgid "You do not have read access to."
+msgstr "Anda tidak memiliki akses baca ke."
+
+#: wp-sitemanager/modules/site-cache.php:250
+msgid "Does not exist"
+msgstr "Does not exist"
+
+#: wp-sitemanager/modules/site-structure.php:62
+#: wp-sitemanager/modules/site-structure.php:73
+msgid "Site Structure"
+msgstr "Struktur Site"
+
+#: wp-sitemanager/modules/site-structure.php:63
+msgid "Management sitemap, breadcrumb navigation, and Sub Navigation."
+msgstr ""
+"Mengatur sitemap, breadcrumb, sub navigation, struktur site secara terpusat"
+
+#: wp-sitemanager/modules/site-structure.php:87
+#: wp-sitemanager/modules/site-structure.php:159
+msgid "Sitemap Settings"
+msgstr "Pengaturan Sitemap "
+
+#: wp-sitemanager/modules/site-structure.php:88
+msgid ""
+"Integrated management for configuration website structure, sitemap, "
+"breadcrumb, and sub navigation"
+msgstr ""
+"Dengan men-setting sitemap, itemap, breadcrumb, sub navi ditampilkan "
+"sekaligus"
+
+#: wp-sitemanager/modules/site-structure.php:92
+msgid "Website Structure Settings"
+msgstr "Pengaturan Struktur situs web"
+
+#: wp-sitemanager/modules/site-structure.php:93
+msgid "Setting fixed page to be assigned each post type"
+msgstr "Mensetting fixed page berdasarkan post type"
+
+#: wp-sitemanager/modules/site-structure.php:122
+msgid "set as"
+msgstr "set as"
+
+#: wp-sitemanager/modules/site-structure.php:127
+msgid "List"
+msgstr "Daftar"
+
+#: wp-sitemanager/modules/site-structure.php:143
+msgid "Characterize"
+msgstr "Berdasarkan"
+
+#: wp-sitemanager/modules/site-structure.php:150
+msgid "Order "
+msgstr "Urutan"
+
+#: wp-sitemanager/modules/site-structure.php:160
+msgid "Setting for Sitemap"
+msgstr "Mensetting tampilan sitemap"
+
+#: wp-sitemanager/modules/site-structure.php:164
+msgid "Output levels"
+msgstr "Output levels"
+
+#: wp-sitemanager/modules/site-structure.php:167
+msgid "No limit"
+msgstr "Takterbatas"
+
+#: wp-sitemanager/modules/site-structure.php:203
+msgid "Change style"
+msgstr "Pilih Style"
+
+#: wp-sitemanager/modules/site-structure.php:206
+msgid "No style"
+msgstr "Tanpa Style"
+
+#: wp-sitemanager/modules/site-structure.php:221
+msgid ""
+"For displaying sitemap, please describe “<code>[sitemap]</code>” to the "
+"section you want to view"
+msgstr ""
+"Tambahkan “<code>[sitemap]</code>” pada tempat yang diinginkan untuk "
+"menampilkan sitemap"
+
+#: wp-sitemanager/modules/site-structure.php:224
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: wp-sitemanager/modules/site-structure.php:306
+#: wp-sitemanager/modules/site-structure.php:394
+#: wp-sitemanager/modules/site-structure.php:414
+msgid "Excluding from sitemap display"
+msgstr "Excluding from sitemap display"
+
+#: wp-sitemanager/modules/site-structure.php:408
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: wp-sitemanager/modules/site-structure.php:571
+msgid "Set as category page, and change permalink to first child page."
+msgstr ""
+"Ditetapkan sebagai kategori halaman, dan perubahan permalink ke child page "
+"pertama."
+
+#: wp-sitemanager/modules/site-structure.php:1031
+msgid "Realize an all-in-one sub navigation for home, post, and fixed page"
+msgstr ""
+"Mewujudkan sub navigation secara all-in-one untuk home, post, fixed page"
+
+#: wp-sitemanager/modules/site-structure.php:1052
+msgid "Sub Navigation"
+msgstr "Sub Navigation"
+
+#: wp-sitemanager/modules/site-structure.php:1068
+#: wp-sitemanager/modules/site-structure.php:1560
+msgid "Latest News"
+msgstr "Berita Terbaru"
+
+#: wp-sitemanager/modules/site-structure.php:1072
+#: wp-sitemanager/modules/site-structure.php:1561
+msgid "Update News"
+msgstr "Update Terbaru"
+
+#: wp-sitemanager/modules/site-structure.php:1091
+#: wp-sitemanager/modules/site-structure.php:1106
+#: wp-sitemanager/modules/site-structure.php:1120
+#: wp-sitemanager/modules/site-structure.php:1131
+#: wp-sitemanager/modules/site-structure.php:1138
+#: wp-sitemanager/modules/site-structure.php:1337
+#: wp-sitemanager/modules/site-structure.php:1352
+#: wp-sitemanager/modules/site-structure.php:1366
+#: wp-sitemanager/modules/site-structure.php:1377
+#: wp-sitemanager/modules/site-structure.php:1384
+msgid "Category"
+msgstr "Kategori"
+
+#: wp-sitemanager/modules/site-structure.php:1143
+#: wp-sitemanager/modules/site-structure.php:1148
+#: wp-sitemanager/modules/site-structure.php:1389
+#: wp-sitemanager/modules/site-structure.php:1394
+msgid "Archives"
+msgstr "Arsip"
+
+#: wp-sitemanager/modules/site-structure.php:1556
+msgid "Home"
+msgstr "Home"
+
+#: wp-sitemanager/modules/site-structure.php:1557
+#: wp-sitemanager/modules/site-structure.php:1590
+#: wp-sitemanager/modules/site-structure.php:1620
+msgid "Display content"
+msgstr "Display content"
+
+#: wp-sitemanager/modules/site-structure.php:1559
+#: wp-sitemanager/modules/site-structure.php:1592
+#: wp-sitemanager/modules/site-structure.php:1622
+msgid "Not displayed"
+msgstr "Tidak ditampilkan"
+
+#: wp-sitemanager/modules/site-structure.php:1564
+#: wp-sitemanager/modules/site-structure.php:1600
+#: wp-sitemanager/modules/site-structure.php:1630
+msgid "Title"
+msgstr "Judul"
+
+#: wp-sitemanager/modules/site-structure.php:1567
+msgid "Views"
+msgstr "Views"
+
+#: wp-sitemanager/modules/site-structure.php:1570
+msgid "Post type"
+msgstr "Tipe Post"
+
+#: wp-sitemanager/modules/site-structure.php:1573
+#, fuzzy
+msgid "Post"
+msgstr "Tipe Post"
+
+#: wp-sitemanager/modules/site-structure.php:1577
+#: wp-sitemanager/modules/site-structure.php:1619
+msgid "Fixed page"
+msgstr "Fixed page"
+
+#: wp-sitemanager/modules/site-structure.php:1589
+msgid "Post and Archives"
+msgstr "Post and Archives"
+
+#: wp-sitemanager/modules/site-structure.php:1593
+msgid "All categories"
+msgstr "All categories"
+
+#: wp-sitemanager/modules/site-structure.php:1594
+msgid "Children of the root category"
+msgstr "Children of the root category"
+
+#: wp-sitemanager/modules/site-structure.php:1595
+msgid "Children of current category"
+msgstr "Children of current category"
+
+#: wp-sitemanager/modules/site-structure.php:1596
+msgid "Yearly Archives"
+msgstr "Arsip tahunan"
+
+#: wp-sitemanager/modules/site-structure.php:1597
+msgid "Monthly Archives"
+msgstr "Arsip bulanan"
+
+#: wp-sitemanager/modules/site-structure.php:1603
+msgid "Category display order "
+msgstr "Category display order"
+
+#: wp-sitemanager/modules/site-structure.php:1605
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#: wp-sitemanager/modules/site-structure.php:1606
+msgid "Category slug"
+msgstr "Slug Kategori"
+
+#: wp-sitemanager/modules/site-structure.php:1607
+msgid "Number of posts"
+msgstr "Jumlah Post"
+
+#: wp-sitemanager/modules/site-structure.php:1610
+msgid "Ascending"
+msgstr "Ascending"
+
+#: wp-sitemanager/modules/site-structure.php:1611
+msgid "Descending"
+msgstr "Descending"
+
+#: wp-sitemanager/modules/site-structure.php:1615
+msgid "Archive Views"
+msgstr "Archive Views"
+
+#: wp-sitemanager/modules/site-structure.php:1623
+msgid "View underlying page, based in root page"
+msgstr "View underlying page, based in root page"
+
+#: wp-sitemanager/modules/site-structure.php:1624
+msgid "View first, top level, child pages, based in root page"
+msgstr "View first, top level, child pages, based in root page"
+
+#: wp-sitemanager/modules/site-structure.php:1625
+msgid "View underlying page, based in current page"
+msgstr "View underlying page, based in current page"
+
+#: wp-sitemanager/modules/site-structure.php:1628
+msgid "View base page"
+msgstr "View base page"
+
+#: wp-sitemanager/modules/site-structure.php:1634
+msgid "Level of display"
+msgstr "Level of display"
+
+#: wp-sitemanager/modules/site-structure.php:1637
+msgid "Exclusion page ID"
+msgstr "Exclusion page ID"
+
+#: wp-sitemanager/modules/theme_switcher.php:46
+msgid "Theme Switcher"
+msgstr "Theme Switcher"
+
+#: wp-sitemanager/modules/theme_switcher.php:47
+msgid "Select thema by determine device"
+msgstr "Pilih thema dengan menentukan perangkat"
+
+#: wp-sitemanager/modules/theme_switcher.php:60
+msgid "Multi Device"
+msgstr "Multi Device"
+
+#: wp-sitemanager/modules/theme_switcher.php:355
+msgid "Device settings"
+msgstr "Pengatura Device"
+
+#: wp-sitemanager/modules/theme_switcher.php:356
+#: wp-sitemanager/modules/theme_switcher.php:377
+#: wp-sitemanager/modules/theme_switcher.php:454
+msgid "Device Group"
+msgstr "Device Group"
+
+#: wp-sitemanager/modules/theme_switcher.php:356
+msgid "Add new group"
+msgstr "Add new group"
+
+#: wp-sitemanager/modules/theme_switcher.php:358
+#: wp-sitemanager/modules/theme_switcher.php:440
+#: wp-sitemanager/modules/theme_switcher.php:743
+msgid "Device"
+msgstr "Device"
+
+#: wp-sitemanager/modules/theme_switcher.php:358
+msgid "Add new device"
+msgstr "Add new device"
+
+#: wp-sitemanager/modules/theme_switcher.php:378
+#: wp-sitemanager/modules/theme_switcher.php:441
+msgid "Back to list"
+msgstr "Back to list"
+
+#: wp-sitemanager/modules/theme_switcher.php:383
+#: wp-sitemanager/modules/theme_switcher.php:739
+#: wp-sitemanager/modules/theme_switcher.php:857
+msgid "Group Name"
+msgstr "Group Name"
+
+#: wp-sitemanager/modules/theme_switcher.php:387
+#: wp-sitemanager/modules/theme_switcher.php:740
+msgid "Theme"
+msgstr "Tema"
+
+#: wp-sitemanager/modules/theme_switcher.php:390
+msgid "No Theme Switching"
+msgstr "Tema terpakai"
+
+#: wp-sitemanager/modules/theme_switcher.php:410
+#: wp-sitemanager/modules/theme_switcher.php:741
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-sitemanager/modules/theme_switcher.php:414
+#: wp-sitemanager/modules/theme_switcher.php:742
+msgid "Priority"
+msgstr "Prioritas"
+
+#: wp-sitemanager/modules/theme_switcher.php:446
+#: wp-sitemanager/modules/theme_switcher.php:855
+msgid "Device Name"
+msgstr "Device Name"
+
+#: wp-sitemanager/modules/theme_switcher.php:450
+msgid "Device Keywords"
+msgstr "Kata Kunci Meta"
+
+#~ msgid "Contribution"
+#~ msgstr "Contribution"
+
+#~ msgid "Incluce taxonomies for keywords of article"
+#~ msgstr "Sertakan taksonomi untuk kata kunci dari artikel"
+
+#~ msgid "Latest news"
+#~ msgstr "Latest news"
+
+#~ msgid "Group name"
+#~ msgstr "Nama Group"
+
+#~ msgid "Activation"
+#~ msgstr "Aktivasi"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#, fuzzy
+#~ msgid "Site structure"
+#~ msgstr "Site Structure"
+
+#~ msgid "Current Theme"
+#~ msgstr "Tema saat ini"
+
+#, fuzzy
+#~ msgid "Category Slug"
+#~ msgstr "Kategori"
+
+#~ msgid "No switching of theme"
+#~ msgstr "Tidak ada tema pengganti"
+
+#~ msgid "モジュール"
+#~ msgstr "Modul"
+
+#~ msgid "停止"
+#~ msgstr "Stop"
+
+#~ msgid "モジュールがインストールされていません。"
+#~ msgstr "Modul tidak diinstal."
+
+#~ msgid "一般設定"
+#~ msgstr "Pengaturan umum"
+
+#~ msgid "パンくずナビ"
+#~ msgstr "Navigasi Breadcrumb"
+
+#~ msgid "サイトマップ設定に従ったパンくずナビを表示します。"
+#~ msgstr ""
+#~ "Menunjukkan navigasi breadcrumb yang sesuai dengan pengaturan peta situs."
+
+#~ msgid "FRONT PAGE"
+#~ msgstr "HOME"
+
+#~ msgid "『%s』の検索結果"
+#~ msgstr "Hasil pencarian dari \"% s\""
+
+#~ msgid "%s年"
+#~ msgstr "%s tahun"
+
+#~ msgid "%s月"
+#~ msgstr "%s bulan"
+
+#~ msgid "%s日"
+#~ msgstr "%s Tanggal"
+
+#~ msgid "メタキーワード"
+#~ msgstr "Kata kunci meta"
+
+#~ msgid "メタディスクリプション"
+#~ msgstr "Meta Deskripsi"
+
+#~ msgid "メタ情報"
+#~ msgstr "Pengaturan Meta-informasi"
+
+#~ msgid "キーワード &amp; ディスクリプション"
+#~ msgstr "Keyword & Deskripsi"
+
+#~ msgid "サイトワイド設定"
+#~ msgstr "Pengaturan lebar Site"
+
+#~ msgid "共通キーワード"
+#~ msgstr "kata kunci umum"
+
+#~ msgid "基本ディスクリプション"
+#~ msgstr "Dasar Deskripsi"
+
+#~ msgid "記事設定"
+#~ msgstr "Pengaturan Article"
+
+#~ msgid "記事のキーワードに含める分類"
+#~ msgstr "Klasifikasi untuk dimasukkan dalam artikel kata kunci"
+
+#~ msgid "記事のメタディスクリプション"
+#~ msgstr "Deskripsi Meta artikel"
+
+#~ msgid "抜粋を記事のディスクリプションとして利用する"
+#~ msgstr "Gunakan kutipan sebagai deskripsi dari artikel"
+
+#~ msgid "タクソノミー設定"
+#~ msgstr "Pengaturan Taxonomy"
+
+#~ msgid "タクソノミーのメタキーワード"
+#~ msgstr "Meta keywords taxonomy"
+
+#~ msgid "分類名をキーワードに含める"
+#~ msgstr "Menyertakan kata kunci nama klasifikasi "
+
+#~ msgid "ソーシャル設定"
+#~ msgstr "Pengaturan Media Sosial"
+
+#~ msgid "共通イメージ画像"
+#~ msgstr "Gambar umum"
+
+#~ msgid "画像を選択"
+#~ msgstr "Pilih gambar"
+
+#~ msgid "画像を削除"
+#~ msgstr "Hapus Gambar"
+
+#~ msgid "の出力"
+#~ msgstr "Output dari"
+
+#~ msgid "出力する"
+#~ msgstr "Keluaran"
+
+#~ msgid "のサイトアカウント"
+#~ msgstr "Akun situs"
+
+#~ msgid "メタ情報設定"
+#~ msgstr "Pengaturan Meta-informasi"
+
+#~ msgid ""
+#~ "サイトのheadタグ内にメタキーワード、メタディスクリプションの表示を行いま"
+#~ "す。"
+#~ msgstr "Menampilkan kata kunci meta, deskripsi meta pada tag head situs."
+
+#~ msgid "ページナビ（ページャー）"
+#~ msgstr "Navigasi Halaman (pager)"
+
+#~ msgid ""
+#~ "カテゴリーや年月・作成者などのアーカイブページにおいて、ページナビ（ペー"
+#~ "ジャー）を表示します。"
+#~ msgstr ""
+#~ "Pada halaman arsip, seperti tanggal, penulis atau kategori, saya akan "
+#~ "menampilkan navigasi antar halaman (pager)."
+
+#~ msgid "キャッシュ"
+#~ msgstr "Cache"
+
+#~ msgid "キャッシュ機能を利用可能にします。"
+#~ msgstr "Aku akan menyediakan fungsi Cache."
+
+#~ msgid "キャッシュ設定"
+#~ msgstr "Pengaturan Cache"
+
+#~ msgid "キャッシュの有効期限"
+#~ msgstr "Cache kedaluwarsa"
+
+#~ msgid ""
+#~ "キャッシュは有効になっていません。有効にするためには、wp-config.phpの「編"
+#~ "集が必要なのはここまでです !…」という記述より上に"
+#~ msgstr ""
+#~ "Cache tidak diaktifkan. Untuk lebih efektif, edit file wp-config.php "
+#~ "\"Tambahkan script berikut di akhir file\" "
+
+#~ msgid "と記述する必要があります。"
+#~ msgstr " "
+
+#~ msgid "トップページ"
+#~ msgstr "Front page"
+
+#~ msgid "分"
+#~ msgstr "Menit"
+
+#~ msgid "アーカイブ（一覧）"
+#~ msgstr "Arsip (Daftar)"
+
+#~ msgid "記事詳細"
+#~ msgstr "Rincian Article"
+
+#~ msgid "キャッシュ除外"
+#~ msgstr "Pengecualian Cache"
+
+#~ msgid ""
+#~ "キャッシュを除外したい、URLパターン（正規表現利用可）を指定できます。複数"
+#~ "のパターンを指定する場合は、改行を入れてください。"
+#~ msgstr ""
+#~ "Anda ingin mengecualikan cache, Anda dapat menentukan pola URL (ekspresi "
+#~ "reguler diakses). Jika Anda menetapkan lebih dari satu pola, silakan "
+#~ "memasukkan per baris."
+
+#~ msgid "キャッシュするクエリ文字列"
+#~ msgstr "Query string untuk cache"
+
+#~ msgid "キャッシュデータとして有効なクエリ文字列のキーを入力してください。"
+#~ msgstr "Masukkan kunci query string yang valid sebagai cache data."
+
+#~ msgid "記事公開時に削除するキャッシュの範囲"
+#~ msgstr ""
+#~ "Rentang cache yang ingin ingin di hapus pada sebuah artikel yang "
+#~ "diterbitkan ."
+
+#~ msgid "削除しない"
+#~ msgstr "Jangan Menghapusnya"
+
+#~ msgid "記事のみ"
+#~ msgstr "Hanya artikel"
+
+#~ msgid "記事とトップページ"
+#~ msgstr "Home Artikel"
+
+#~ msgid "すべて"
+#~ msgstr "Semua"
+
+#~ msgid "キャッシュのクリア"
+#~ msgstr "Hapus Cache"
+
+#~ msgid "キャッシュを全てクリア"
+#~ msgstr "Menghapus semua cache"
+
+#~ msgid "の再生成"
+#~ msgstr "Regenerasi"
+
+#~ msgid "を生成する"
+#~ msgstr "Saya ingin menghasilkan"
+
+#~ msgid "、または "
+#~ msgstr ", Atau"
+
+#~ msgid ""
+#~ "に書き込み権限がありません。advanced-cache.phpの再生成を行うには、書き込み"
+#~ "権限を設定してください。"
+#~ msgstr ""
+#~ "Anda tidak memiliki izin menulis ke. advanced-cache.php. Silahkan "
+#~ "mengatur hak akses tulis."
+
+#~ msgid "は存在していますが、"
+#~ msgstr "Meskipun Anda tidak ada,"
+
+#~ msgid "のものとは異なっています。"
+#~ msgstr "Saya berbeda dari."
+
+#~ msgid "に読み込み権限がありません。"
+#~ msgstr "Anda tidak memiliki akses baca ke."
+
+#~ msgid "が存在していません。"
+#~ msgstr "'Tidak ada."
+
+#~ msgid ""
+#~ "サイトマップ、パンくずナビ、サブナビなど、サイトの構成を一元管理します。"
+#~ msgstr ""
+#~ "Ini Pusat manajemen peta situs (Site Map), navigasi breadcrumb, dan Sub "
+#~ "Navi konfigurasi situs."
+
+#~ msgid "サイト構造"
+#~ msgstr "Site Structure"
+
+#~ msgid "サイトマップ設定"
+#~ msgstr "Pengaturan peta situs"
+
+#~ msgid ""
+#~ "サイトマップの設定を行うことにより、サイトマップ、パンくずナビ、サブナビ"
+#~ "ゲーションの表示を統合的に管理できます。"
+#~ msgstr ""
+#~ "Dengan menetapkan peta situs, Anda dapat mengelola tampilan peta situs "
+#~ "secara terintegrasi, navigasi breadcrumb, sub-navigasi."
+
+#~ msgid "サイト構造定義"
+#~ msgstr "Definisi struktur situs"
+
+#~ msgid ""
+#~ "固定ページをベースとして投稿タイプ毎に割り当てる固定ページの設定を行いま"
+#~ "す。"
+#~ msgstr ""
+#~ "Daerah ini digunakan untuk mengatur halaman tetap (fixed page) yang akan "
+#~ "ditetapkan ke setiap jenis post, didasarkan pada halaman tetap."
+
+#~ msgid "を"
+#~ msgstr "The"
+
+#~ msgid "一覧"
+#~ msgstr "Ringkasan"
+
+#~ msgid "にひもづける。"
+#~ msgstr "Masukan string."
+
+#~ msgid "順序"
+#~ msgstr "Urutan"
+
+#~ msgid "サイトマップ表示に関する設定を行います。"
+#~ msgstr "Saya akan melakukan pengaturan untuk Peta Situs."
+
+#~ msgid "出力階層制限"
+#~ msgstr "Membatasi output hirarkis"
+
+#~ msgid "制限なし"
+#~ msgstr "Tak Hingga"
+
+#~ msgid "第"
+#~ msgstr "Level "
+
+#~ msgid "階層"
+#~ msgstr " hirarki"
+
+#~ msgid "スタイルの変更"
+#~ msgstr "Pilihan Style"
+
+#~ msgid "スタイルなし"
+#~ msgstr "No style"
+
+#~ msgid "サイトマップを表示するには、サイトマップを表示したい箇所に"
+#~ msgstr ""
+#~ "Untuk menampilkan peta situs pada halaman web yang anda inginkan, masukan "
+#~ "shortcode berikut"
+
+#~ msgid "と記述してください。"
+#~ msgstr "pada bagian deskripsi"
+
+#~ msgid "サイトマップの表示から除外する"
+#~ msgstr "Kecualikan dari tampilan peta situs"
+
+#~ msgid "サイトマップでの表示から除外する"
+#~ msgstr "Kecualikan dari tampilan di peta situs"
+
+#~ msgid "サイトマップ表示"
+#~ msgstr "Peta Situs"
+
+#~ msgid "カテゴリー記事としてリンク先を子記事にする"
+#~ msgstr "Artikel anak terkait sebagai artikel kategori"
+
+#~ msgid "ホーム、投稿、固定ページでのサブナビをオールインワンで実現"
+#~ msgstr "Atur all-in-one home, post, Sub Navi pada halaman tetap"
+
+#~ msgid "サブナビ"
+#~ msgstr "Sub Navi"
+
+#~ msgid "最新情報"
+#~ msgstr "up-to-date informasi"
+
+#~ msgid "更新情報"
+#~ msgstr "Update"
+
+#~ msgid "ホーム"
+#~ msgstr "Home"
+
+#~ msgid "表示内容"
+#~ msgstr "Menampilkan konten"
+
+#~ msgid "表示しない"
+#~ msgstr "Jangan tampilkan"
+
+#~ msgid "タイトル"
+#~ msgstr "Judul"
+
+#~ msgid "表示数"
+#~ msgstr "Views"
+
+#~ msgid "表示タイプ"
+#~ msgstr "Tipe Tampilan"
+
+#~ msgid "投稿"
+#~ msgstr "Kontribusi"
+
+#~ msgid "固定ページ"
+#~ msgstr "Halaman Tetap"
+
+#~ msgid "投稿・カテゴリー・タグ・アーカイブ・作成者"
+#~ msgstr "Post-tag kategori arsip penulis"
+
+#~ msgid "すべてのカテゴリー"
+#~ msgstr "Semua Kategori"
+
+#~ msgid "最上位カテゴリーの子カテゴリー"
+#~ msgstr "Child Kategori dari top-level Kategori"
+
+#~ msgid "表示中の子カテゴリー"
+#~ msgstr "Child category yang ditampilkan"
+
+#~ msgid "年別アーカイブ"
+#~ msgstr "Arsip"
+
+#~ msgid "月別アーカイブ"
+#~ msgstr "Arsip Bulanan"
+
+#~ msgid "カテゴリー表示順"
+#~ msgstr "Urutan Tampilan Kategori"
+
+#~ msgid "名前順"
+#~ msgstr "Berdasarkan Nama"
+
+#~ msgid "カテゴリースラッグ"
+#~ msgstr "Kategori Slug"
+
+#~ msgid "投稿数"
+#~ msgstr "Posts"
+
+#~ msgid "昇順"
+#~ msgstr "Urutan menaik"
+
+#~ msgid "降順"
+#~ msgstr "Urutan Menurun"
+
+#~ msgid "アーカイブ表示数"
+#~ msgstr "Tampilan Arsip"
+
+#~ msgid "最上位を基点とした下層ページを表示"
+#~ msgstr "Lihat halaman mendasari asal yang paling signifikan"
+
+#~ msgid "最上位を基点、第一、上位、子ページを表示"
+#~ msgstr ""
+#~ "Tampilkan titik awal, pertama, atas, halaman anak yang paling signifikan"
+
+#~ msgid "現在地を基点とした下層ページを表示"
+#~ msgstr "Lihat halaman mendasari asal lokasi saat"
+
+#~ msgid "基点ページを表示する"
+#~ msgstr "Saya ingin menampilkan halaman root"
+
+#~ msgid "表示階層数"
+#~ msgstr "Menampilkan jumlah lapisan"
+
+#~ msgid "除外ページ"
+#~ msgstr "Halaman Pengecualian"
+
+#~ msgid ""
+#~ "デバイス判定で設定した内容に従って、表示するテーマの切り替えを行います。"
+#~ msgstr ""
+#~ "Sesuai pilihan perangkat, menu ini digunakan untuk memilih tema yang "
+#~ "ingin anda lihat."
+
+#~ msgid "マルチデバイス"
+#~ msgstr "Multi-Device"
+
+#~ msgid "デバイス判定"
+#~ msgstr "Perangkat Keputusan"
+
+#~ msgid "デバイスグループ"
+#~ msgstr "Group Perangkat"
+
+#~ msgid "追加"
+#~ msgstr "Menambahkan"
+
+#~ msgid "デバイス"
+#~ msgstr "Perangkat"
+
+#~ msgid "一覧ページへ"
+#~ msgstr "Untuk melihat daftar halaman"
+
+#~ msgid "グループ名"
+#~ msgstr "Nama Kelompok"
+
+#~ msgid "テーマ"
+#~ msgstr "Tema"
+
+#~ msgid "テーマの切り替えなし"
+#~ msgstr "Tidak ada switching tema"
+
+#~ msgid "スラッグ"
+#~ msgstr "Slug"
+
+#~ msgid "優先度"
+#~ msgstr "Prioritas"
+
+#~ msgid "デバイス名"
+#~ msgstr "Nama Perangkat"
+
+#~ msgid "キーワード"
+#~ msgstr "Keyword"
+
+#~ msgid "適用デバイス"
+#~ msgstr "Perangkat Aplikasi"
+
+#~ msgid "グループ"
+#~ msgstr "Kelompok"
