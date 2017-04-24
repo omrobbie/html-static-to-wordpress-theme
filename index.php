@@ -5,7 +5,7 @@
 <title>title</title>
 <link rel="apple-touch-icon" href="./images/touch-icon.png" />
 <link rel="shortcut icon" href="./images/favicon.ico" />
-<link rel="stylesheet" type="text/css" media="all" href="./style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 <!--[if lt IE 9]>
   <meta http-equiv="Imagetoolbar" content="no" />
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
