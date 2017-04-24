@@ -2,7 +2,7 @@
 <html dir="ltr" lang="id">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>title</title>
+<title><?php bloginfo('name'); ?></title>
 <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/touch-icon.png" />
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
@@ -14,7 +14,7 @@
 <body class="home">
 <div id="wrap">
   <section id="description">
-    <h1>description</h1>
+    <h1><?php bloginfo('description'); ?></h1>
   </section><!-- #description end -->
   <div id="container">
     <header id="header">
