@@ -9,6 +9,7 @@ Belajar merubah html statis menjadi tema wordpress.
 
 ### Referensi dari :
 * Buku WordPress - Panduan Membangun Situs Web Berskala Bisnis
+* [WordPress Template Hierarchy](http://codex.wordpress.org/Template_Hierarchy "WordPress Template Hierarchy")
 
 ### Daftar plugins :
 * Child Pages Shortcode
