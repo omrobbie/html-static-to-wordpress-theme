@@ -1,4 +1,15 @@
 <article <?php post_class(); ?>>
+  <a href="<?php the_permalink(); ?>">
+    <?php
+      the_post_thumbnail(
+        'large_thumbnail',
+        array(
+          'alt'   => the_title_attribute('echo=0'),
+          'title' => the_title_attribute('echo=0')
+        )
+      );
+    ?>
+  </a>
   <header class="entry-header">
     <time class="entry-date" pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>">
       <?php the_time(get_option('date_format')); ?>
